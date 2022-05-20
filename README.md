@@ -2,8 +2,9 @@
 - [Basics](#Basics)
 - [Networking](#Networking)
 - [Storage](#Storage)
-- [Advansed](#Advansed)
-- [Termainal](#Termainal)
+- [Advanced](#Advanced)
+- [Programming](#Programming)
+- [Terminal](#Terminal)
 - [External_Resources](#External_Resources)
 - [Fun](#Fun)
 
@@ -180,6 +181,37 @@
 - find
 - diff
 
+# Programming
+
+## C/C++
+- ## [gcc/g++](http://manpages.ubuntu.com/manpages/jammy/en/man1/gcc.1.html)
+  - one of the most popular compilers
+  - usage `gcc/g++` the program you want to compile
+  - examples
+    ```bash
+    gcc helloworld.c
+    g++ helloworld.cc
+    ```
+- ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
+  - another one of the most popular compilers
+  - usage ``
+  - examples
+    ```bash
+    ```
+- ## [gdb/cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/gdb.1.html)
+  - one of the most popular compilers
+  - usage `gdb/cgdb` the program you want to debug
+  - examples
+    ```bash
+    cgdb a.out
+    gdb a.out
+    ```
+
+## Rust
+- cargo
+
+## python
+
 # Debuging/Information
 - journalctl
 - systemctl
@@ -190,13 +222,12 @@
 - lsblk
 - lstopo
 
-# Advansed
-
+# Advanced
 - sed
 - awk
 - su
 
-# Termainal
+# Terminal
 - alias
 ```bash
 alias ll='ls -lh' 
