@@ -2,8 +2,9 @@
 - [Basics](#Basics)
 - [Networking](#Networking)
 - [Storage](#Storage)
-- [Advanced](#Advanced)
 - [Programming](#Programming)
+- [Debuging-Information](#Debuging-Information)
+- [Advanced](#Advanced)
 - [Terminal](#Terminal)
 - [External_Resources](#External_Resources)
 - [Fun](#Fun)
@@ -184,7 +185,8 @@
 # Programming
 
 ## C/C++
-- ## [gcc/g++](http://manpages.ubuntu.com/manpages/jammy/en/man1/gcc.1.html)
+
+- ## [gcc/g++](./Programming/gcc-g++.md)
 	- one of the most popular compilers
 	- usage `gcc/g++` the program you want to compile
 	- examples
@@ -198,7 +200,7 @@
 	- examples
 		```bash
 		```
-- ## [gdb/cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/gdb.1.html)
+- ## [gdb/cgdb](./Programming/gdb-cgdb.md)
 	- one of the most popular compilers
 	- usage `gdb/cgdb` the program you want to debug
 	- examples
@@ -212,7 +214,7 @@
 
 ## python
 
-# Debuging/Information
+# Debuging-Information
 - journalctl
 - systemctl
 - dmesg
@@ -235,19 +237,36 @@
 		alias ll='ls -lh'
 		alias la='ls -Alh'
 		```
-- ## Shells
-	- [Bash](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
-	- [zsh](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
-	- [fish](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+## Shells
+- [Bash](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
+- [zsh](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
+- [fish](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+- [tmux](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
+
+## Editors
+- nano
+- vim
+- doom emacs
+- vscode
 
 ## Keyboard shortcuts
 - ctrl shift c
+	- Copy
 - ctrl shift v
+	- Paste
 - ctrl l
+	- Clear terminal
 - ctrl a
+	- Go to beginning of line
 - tab
-
+	- Auto compleat
 - !!
+	- redo last command
+	- examples
+	```bash
+	ls
+	sudo !! is equivalent to sudo ls
+	```
 
 # External_Resources
 - https://explainshell.com/#
