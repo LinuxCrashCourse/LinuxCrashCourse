@@ -1,13 +1,4 @@
-#File commands
-- ## [man](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
-	- an interface to the system reference manuals
-	- usage `man` then the command you the manuals for
-	- examples
-		```bash
-		man cd
-		man ls
-		```
-
+# File commands
 - ## [cd](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
 	- change directory
 	- usage `cd` then the directory you with to go to
@@ -23,14 +14,6 @@
 		```bash
 		ls
 		ls dir
-		```
-
-- ## [sudo](http://manpages.ubuntu.com/manpages/jammy/en/man8/sudo.8.html)
-	- execute a command as root sudo stems for superuser do
-	- usage `sudo` then the command you want to run as root
-	- examples
-		```bash
-		sudo ls dir
 		```
 
 - ## [cat](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
