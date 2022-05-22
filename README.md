@@ -1,22 +1,22 @@
 LinuxCrashCourse
 
 - [Needs a place](#needs-a-place)
+  - [user mangment](#user-mangment)
 - [Core-Commands](#core-commands)
 - [Files-Details](#files-details)
 - [Processes](#processes)
 - [Networking](#networking)
 - [Storage](#storage)
+- [archiving/backuo](#archivingbackuo)
 - [Programming](#programming)
-- [Programming](#programming-1)
-	- [C/C++](#cc)
-	- [Rust](#rust)
-	- [python](#python)
+  - [C/C++](#cc)
+  - [Rust](#rust)
+  - [python](#python)
 - [Debugging-Information](#debugging-information)
-- [Advanced](#advanced)
 - [Terminal](#terminal)
-	- [Shells](#shells)
-	- [Editors](#editors)
-	- [Keyboard shortcuts](#keyboard-shortcuts)
+  - [Shells](#shells)
+  - [Editors](#editors)
+  - [Keyboard shortcuts](#keyboard-shortcuts)
 - [External_Resources](#external_resources)
 - [Crypto](#crypto)
 - [Fun](#fun)
@@ -33,10 +33,17 @@ LinuxCrashCourse
 
 - sed
 - awk
-- su
 - cut
 - paste
 - tr
+- xargs
+- ## [cat](Tabs/Files-Details.md#cat) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
+
+## user mangment
+- passwd
+- chsh
+- su
+
 
 # [Core-Commands](Tabs/Core-Commands.md)
 
@@ -48,13 +55,13 @@ sudo
 
 - ## [man](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
 
+- ## [less](Tabs/Files-Details.md#less) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
 <!-- ownership/permissions Meaning -->
 
 # [Files-Details](Tabs/Files-Details.md)
 
 - ## [cd](Tabs/Files-Details.md#cd) Change directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
 - ## [ls](Tabs/Files-Details.md#ls) List contents of directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ls.1.html)
-- ## [cat](Tabs/Files-Details.md#cat) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
 - ## [mkdir](Tabs/Files-Details.md#mkdir) make directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
 - ## [rmdir](Tabs/Files-Details.md#rmdir) deleate directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rmdir.1.html)
 - ## [rm](Tabs/Files-Details.md#rm) deleate file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
@@ -62,15 +69,17 @@ sudo
 - ## [mv](Tabs/Files-Details.md#mv) move file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
 - ## [chown](Tabs/Files-Details.md#chown) change ownership of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
 - ## [chmod](Tabs/Files-Details.md#chmod) change permissions of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
-- ## [less](Tabs/Files-Details.md#less) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
 - ## [find](Tabs/Files-Details.md#find) a tool to search for a file or dir [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
 - ## [locate](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
+- ## ncdu
+- find
+- diff
 
 # [Processes](Tabs/Processes.md)
 
 - ## [htop](http://manpages.ubuntu.com/manpages/jammy/en/man1/htop.1.html)
 - ## [kill](http://manpages.ubuntu.com/manpages/jammy/en/man1/kill.1.html)
-- ## [grep](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
+- ## [pgrep](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
 - ## [top](http://manpages.ubuntu.com/manpages/jammy/en/man1/top.1.html)
 - ## [ps](http://manpages.ubuntu.com/manpages/jammy/en/man1/ps.1.html)
 
@@ -86,21 +95,23 @@ sudo
 - ## ufw
 - ## iperf3
 
+- ## hostnamectl
+- ## hostname
+
 # Storage
 
 - mount
 - umount
 - fdisk
 - ln
-- ncdu
 - df "report file system disk space usage df(1), info"
-- tar
-- find
-- diff
+- dd
 - partition
 - gparted
 
-# Programming
+# archiving/backuo
+- tar
+- ## rsync
 
 # Programming
 
@@ -110,6 +121,7 @@ sudo
 - ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
 - ## [gdb/cgdb](Programming/gdb-cgdb.md)
 - ## [valgrind]()
+- ## [bytehound](https://github.com/koute/bytehound/releases)
 - ## [gprof]()
 - profiling helps optimize by showing which parts of the code are taking the
   most time
@@ -118,6 +130,7 @@ sudo
 ## Rust
 
 - cargo
+- rustup
 
 ## python
 
@@ -131,12 +144,6 @@ sudo
 - lsusb
 - lsblk
 - lstopo
-
-# Advanced
-
-- sed
-- awk
-- su
 
 # Terminal
 
@@ -218,10 +225,10 @@ Cryptography is not easy, but it is vital. This may not be the first section you
 study, but if you want to your computer to be secure, you should learn these
 commands. [explain] (cryptoexplanation.md)
 
-- ##openssl
+- ## openssl
 - ## ssh-keygen
 - ## gpg
-
+- ## blake3
 # Fun
 
 - ## [Stat](http://manpages.ubuntu.com/manpages/jammy/en/man1/stat.1.html)
