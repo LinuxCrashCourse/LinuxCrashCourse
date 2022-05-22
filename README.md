@@ -1,22 +1,25 @@
-# linux-Crash-Course
+LinuxCrashCourse
 
-- [Core-Commands](#Core-Commands)
-- [Files-Details](#Files-Details)
-- [Processes details](#processes-details)
+- [Needs a place](#needs-a-place)
+- [Core-Commands](#core-commands)
+- [Files-Details](#files-details)
+- [Processes](#processes)
 - [Networking](#networking)
 - [Storage](#storage)
 - [Programming](#programming)
-  - [C/C++](#cc)
-  - [Rust](#rust)
-  - [python](#python)
-- [Debugging-Information](#Debugging-Information)
+- [Programming](#programming-1)
+	- [C/C++](#cc)
+	- [Rust](#rust)
+	- [python](#python)
+- [Debugging-Information](#debugging-information)
+- [Advanced](#advanced)
 - [Terminal](#terminal)
-  - [Shells](#shells)
-  - [Editors](#editors)
-  - [Keyboard shortcuts](#keyboard-shortcuts)
+	- [Shells](#shells)
+	- [Editors](#editors)
+	- [Keyboard shortcuts](#keyboard-shortcuts)
 - [External_Resources](#external_resources)
-- [Crypto](#Crypto)
-- [Fun](#Fun)
+- [Crypto](#crypto)
+- [Fun](#fun)
 
 <!-- - # Best Linux Resources on the web -->
 
