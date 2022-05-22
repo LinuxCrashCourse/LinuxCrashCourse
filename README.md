@@ -1,4 +1,4 @@
-# Linux-Crash-Course
+# LinuxCrashCourse
 - [Core-Commands](#Core-Commands)
 - [Files-Details](#Files-Details)
 - [Processes details](#processes-details)
