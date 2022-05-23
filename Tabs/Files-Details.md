@@ -5,6 +5,7 @@
   - change directory
   - usage `cd` then the directory you with to go to
   - examples
+
     ```bash
     cd dir
     ```
@@ -14,6 +15,7 @@
   - list content of a directory
   - usage
   - examples
+
     ```bash
     ls
     ls dir
@@ -25,6 +27,7 @@
     [standard output](https://en.wikipedia.org/wiki/Standard_streams)
   - usage `cat` the file you would like to look at
   - examples
+
     ```bash
     cat ./file.txt
     ```
@@ -34,6 +37,7 @@
   - make a directory
   - usage `mkdir` then the name of the directory you want to make
   - examples
+
     ```bash
     mkdir dir
     ```
@@ -43,6 +47,7 @@
   - deletes an empty directories
   - usage `rmdir` then the name of the directory you want to delete
   - examples
+
     ```bash
     rmdir dir
     ```
@@ -74,6 +79,7 @@
   - usage `cp` then the name of the directory or file you want to copy then the
     directory you want them to be copied to
   - examples
+
     ```bash
     cp file.txt dir
     cp -r dir dir
@@ -84,6 +90,7 @@
   -
   - usage ``
   - examples
+
     ```bash
 
     ```
@@ -93,6 +100,7 @@
   - moves/rename files or directories
   - usage `mv`
   - examples
+
     ```bash
 
     ```
@@ -102,14 +110,16 @@
   -
   - usage ``
   - examples
+
     ```bash
 
     ```
 
 - ## [less](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
-  -
+
   - usage ``
   - examples
+
     ```bash
 
     ```
