@@ -1,11 +1,8 @@
 # LinuxCrashCourse
 
 - [LinuxCrashCourse](#linuxcrashcourse)
-  - [Needs a place](#needs-a-place)
-  - [String manipulation](#string-manipulation)
-  - [User_Management](#user_management)
   - [Core-Commands](#core-commands)
-  - [Files-Details](#files-details)
+  - [Files](#files)
   - [Processes](#processes)
   - [Networking](#networking)
   - [Storage](#storage)
@@ -21,63 +18,41 @@
     - [C++ IDEs](#c-ides)
     - [java](#java)
     - [Keyboard shortcuts](#keyboard-shortcuts)
+  - [User_Management](#user_management)
   - [External_Resources](#external_resources)
   - [Crypto](#crypto)
+  - [String manipulation](#string-manipulation)
   - [Fun](#fun)
+  - [Needs a place](#needs-a-place)
 
 <!-- - # Best Linux Resources on the web -->
-## Needs a place
-
-- [grep](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
-
-- [echo](http://manpages.ubuntu.com/manpages/jammy/en/man1/echo.1.html)
-
-  sudo echo verbose echo "" | sudo tee /etc/apt/preferences.d/ not verbose echo
-  "" | sudo tee /etc/apt/preferences.d/ > /dev/null
-
-- xargs
-
-## String manipulation
-
-- sed
-- awk
-- cut
-- paste
-- tr
-- [cat](Tabs/Files-Details.md#cat) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
-
-## User_Management
-
-- [passwd](Tabs/User_Management.md#passwd) change password [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/passwd.1.html)
-- [chsh](Tabs/User_Management.md#chsh) change shell [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chsh.1.html)
-- [su](Tabs/User_Management.md#su) switch user [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/su.1.html)
-
 ## [Core-Commands](Tabs/Core-Commands.md)
 
-These commands are the most fundamental??? These commands are the most important???
+These commands are the most fundamental???
+These commands are the most important???
 
-Note: any command run with superuser privilege (cursor is #) must be run with sudo
+[Base-Knowledge](Tabs/Base-Knowledge.md) is fundament to the rest of the information without this knowing whats you may not understand whats being said.
 
-- [man](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
+- [man] a cli interface for system reference manuals [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
 
-- [less](Tabs/Files-Details.md#less) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
-<!-- ownership/permissions Meaning -->
+- [sudo] execute a command as root [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/sudo.1.html)
 
-## [Files-Details](Tabs/Files-Details.md)
+## [Files](Tabs/Files.md)
 
-- [cd](Tabs/Files-Details.md#cd) Change directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
-- [ls](Tabs/Files-Details.md#ls) List contents of directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ls.1.html)
-- [mkdir](Tabs/Files-Details.md#mkdir) make directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
-- [rmdir](Tabs/Files-Details.md#rmdir) delete directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rmdir.1.html)
-- [rm](Tabs/Files-Details.md#rm) delete file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
-- [cp](Tabs/Files-Details.md#cp) copy file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html)
-- [mv](Tabs/Files-Details.md#mv) move file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
-- [chown](Tabs/Files-Details.md#chown) change ownership of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
-- [chmod](Tabs/Files-Details.md#chmod) change permissions of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
-- [find](Tabs/Files-Details.md#find) a tool to search for a file or dir [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
-- [locate](Tabs/Files-Details.md#locate)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
-- [ncdu](Tabs/Files-Details.md#ncdu)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
-- [diff](Tabs/Files-Details.md#diff)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/diff.1.html)
+- [cd](Tabs/Files.md#cd) Change directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
+- [ls](Tabs/Files.md#ls) List contents of directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ls.1.html)
+- [mkdir](Tabs/Files.md#mkdir) make directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
+- [rmdir](Tabs/Files.md#rmdir) delete directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rmdir.1.html)
+- [rm](Tabs/Files.md#rm) delete file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
+- [cp](Tabs/Files.md#cp) copy file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html)
+- [mv](Tabs/Files.md#mv) move file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
+- [chown](Tabs/Files.md#chown) change ownership of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
+- [chmod](Tabs/Files.md#chmod) change permissions of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
+- [find](Tabs/Files.md#find) a tool to search for a file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
+- [ncdu](Tabs/Files.md#ncdu) shows disk usage presentage by directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
+- [diff](Tabs/Files.md#diff) compare two files [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/diff.1.html)
+
+- [locate](Tabs/Files.md#locate)
 
 ## [Processes](Tabs/Processes.md)
 
@@ -220,6 +195,12 @@ Note: any command run with superuser privilege (cursor is #) must be run with su
   sudo !! is equivalent to sudo ls
   ```
 
+## User_Management
+
+- [passwd](Tabs/User_Management.md#passwd) change password [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/passwd.1.html)
+- [chsh](Tabs/User_Management.md#chsh) change shell [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chsh.1.html)
+- [su](Tabs/User_Management.md#su) switch user [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/su.1.html)
+
 ## External_Resources
 
 - [explainshell.com](https://explainshell.com/#)
@@ -246,8 +227,29 @@ commands. [explain] (cryptoexplanation.md)
 - [sha2](http://manpages.ubuntu.com/manpages/jammy/en/man3/sha2.3.html)
 - [md5](http://manpages.ubuntu.com/manpages/jammy/en/man3/md5.3.html)
 
+## String manipulation
+
+- sed
+- awk
+- cut
+- paste
+- tr
+- [cat](Tabs/Files.md#cat) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
+- [less](Tabs/Files.md#less) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
+
 ## Fun
 
 - [Stat](http://manpages.ubuntu.com/manpages/jammy/en/man1/stat.1.html)
   - display file or file system status
   - I haven't found a use for this yet but `stat /` will show you your installs Birthday
+
+## Needs a place
+
+- [grep](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/grep.1.html)
+
+- [echo](http://manpages.ubuntu.com/manpages/jammy/en/man1/echo.1.html)
+
+  sudo echo verbose echo "" | sudo tee /etc/apt/preferences.d/ not verbose echo
+  "" | sudo tee /etc/apt/preferences.d/ > /dev/null
+
+- xargs
