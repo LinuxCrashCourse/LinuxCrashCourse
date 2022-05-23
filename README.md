@@ -73,7 +73,7 @@ These commands are the most important???
 - [iperf3](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
 - [hostnamectl](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostnamectl.1.html)
 - [hostname](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
-- [failtoban]
+- failtoban
 
 - .ssh-config
 
@@ -95,7 +95,7 @@ These commands are the most important???
 - [zstd](http://manpages.ubuntu.com/manpages/jammy/en/man1/zstd.1.html)
 - [zip](http://manpages.ubuntu.com/manpages/jammy/en/man1/zip.1.html)
 - [bzip2](http://manpages.ubuntu.com/manpages/jammy/en/man1/bzip2.1.html)
-- [lzma]
+- lzma
 
 ## Programming
 
