@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Gcc G&#43;&#43; | Linux Crash Course</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="gcc/g&#43;&#43; Notes gcc and g&#43;&#43; are functionally the same the difference is gcc is for C and g&#43;&#43; is for C&#43;&#43;.
+Optimizing  -O0 This is the default. this has the fastest compile time and is bent for debuging -O1 Optimize This turns on basic optimizations -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has. -O3 Optimize yet more. This turns on all optimizations and can cause problems.">
+    <meta name="generator" content="Hugo 0.98.0" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Gcc G&#43;&#43;" />
+<meta property="og:description" content="gcc/g&#43;&#43; Notes gcc and g&#43;&#43; are functionally the same the difference is gcc is for C and g&#43;&#43; is for C&#43;&#43;.
+Optimizing  -O0 This is the default. this has the fastest compile time and is bent for debuging -O1 Optimize This turns on basic optimizations -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has. -O3 Optimize yet more. This turns on all optimizations and can cause problems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxcrashcourse.com/programming/gcc-g&#43;&#43;/" /><meta property="article:section" content="programming" />
+<meta property="article:published_time" content="2022-05-23T17:13:07-04:00" />
+<meta property="article:modified_time" content="2022-05-23T17:13:07-04:00" />
+
+<meta itemprop="name" content="Gcc G&#43;&#43;">
+<meta itemprop="description" content="gcc/g&#43;&#43; Notes gcc and g&#43;&#43; are functionally the same the difference is gcc is for C and g&#43;&#43; is for C&#43;&#43;.
+Optimizing  -O0 This is the default. this has the fastest compile time and is bent for debuging -O1 Optimize This turns on basic optimizations -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has. -O3 Optimize yet more. This turns on all optimizations and can cause problems."><meta itemprop="datePublished" content="2022-05-23T17:13:07-04:00" />
+<meta itemprop="dateModified" content="2022-05-23T17:13:07-04:00" />
+<meta itemprop="wordCount" content="85">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Gcc G&#43;&#43;"/>
+<meta name="twitter:description" content="gcc/g&#43;&#43; Notes gcc and g&#43;&#43; are functionally the same the difference is gcc is for C and g&#43;&#43; is for C&#43;&#43;.
+Optimizing  -O0 This is the default. this has the fastest compile time and is bent for debuging -O1 Optimize This turns on basic optimizations -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has. -O3 Optimize yet more. This turns on all optimizations and can cause problems."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Linux Crash Course
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/networking/" title="Networking page">
+              Networking
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/processes/" title="Processes page">
+              Processes
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/programming/" title="Programmings page">
+              Programmings
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROGRAMMINGS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Gcc G&#43;&#43;</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-05-23T17:13:07-04:00">May 23, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="gccg">gcc/g++</h1>
+<h2 id="notes">Notes</h2>
+<p>gcc and g++ are functionally the same the difference is gcc is for C and g++ is
+for C++.</p>
+<h2 id="optimizing">Optimizing</h2>
+<ul>
+<li>-O0 This is the default. this has the fastest compile time and is bent for
+debuging</li>
+<li>-O1 Optimize This turns on basic optimizations</li>
+<li>-O2 Optimize even more. This turns on nearly all supported optimizations that
+that gcc has.</li>
+<li>-O3 Optimize yet more. This turns on all optimizations and can cause problems.</li>
+</ul>
+<h2 id="debugging">Debugging</h2>
+<ul>
+<li>-g This is the Debugging flag to use <a href="./gdb-cgdb.md">gdb/cgdb</a></li>
+</ul>
+<h2 id="man-pagehttpmanpagesubuntucommanpagesjammyenman1gcc1html"><a href="http://manpages.ubuntu.com/manpages/jammy/en/man1/gcc.1.html">Man Page</a></h2>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://linuxcrashcourse.com/" >
+    &copy;  Linux Crash Course 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+baseURL = 'https://linuxcrashcourse.com/'
+languageCode = 'en-us'
+title = 'Linux Crash Course'
+theme = "ananke"
+#sectionPagesMenu = "main"
+pluralizeListTitles = false
+
+[menu]
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = ""
+    weight = 1
+[[menu.main]]
+    identifier = "networking"
+    name = "Networking"
+    url = "/networking"
+    weight = 2
+[[menu.main]]
+    identifier = "processes"
+    name = "Processes"
+    url = "/processes"
+    weight = 3
+  [[menu.main]]
+    identifier = "programming"
+    name = "Programming"
+    url = "/programming"
+    weight = 4

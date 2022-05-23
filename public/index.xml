@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Crash Course</title>
+    <link>https://linuxcrashcourse.com/</link>
+    <description>Recent content on Linux Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 May 2022 17:13:34 -0400</lastBuildDate><atom:link href="https://linuxcrashcourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temp</title>
+      <link>https://linuxcrashcourse.com/programming/temp/</link>
+      <pubDate>Mon, 23 May 2022 17:13:34 -0400</pubDate>
+      
+      <guid>https://linuxcrashcourse.com/programming/temp/</guid>
+      <description>temp   gcc/g++   one of the most popular compilers
+  usage gcc/g++ the program you want to compile
+  examples
+gcc helloworld.c g++ helloworld.cc     Clang   another one of the most popular compilers
+  usage ``
+  examples
+    gdb/cgdb   one of the most popular compilers
+  usage gdb/cgdb the program you want to debug</description>
+    </item>
+    
+    <item>
+      <title>Gdb Cgdb</title>
+      <link>https://linuxcrashcourse.com/programming/gdb-cgdb/</link>
+      <pubDate>Mon, 23 May 2022 17:13:30 -0400</pubDate>
+      
+      <guid>https://linuxcrashcourse.com/programming/gdb-cgdb/</guid>
+      <description>gdb/cgdb man page </description>
+    </item>
+    
+    <item>
+      <title>Gcc G&#43;&#43;</title>
+      <link>https://linuxcrashcourse.com/programming/gcc-g&#43;&#43;/</link>
+      <pubDate>Mon, 23 May 2022 17:13:07 -0400</pubDate>
+      
+      <guid>https://linuxcrashcourse.com/programming/gcc-g&#43;&#43;/</guid>
+      <description>gcc/g++ Notes gcc and g++ are functionally the same the difference is gcc is for C and g++ is for C++.
+Optimizing  -O0 This is the default. this has the fastest compile time and is bent for debuging -O1 Optimize This turns on basic optimizations -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has. -O3 Optimize yet more. This turns on all optimizations and can cause problems.</description>
+    </item>
+    
+    <item>
+      <title>Processes</title>
+      <link>https://linuxcrashcourse.com/processes/</link>
+      <pubDate>Mon, 23 May 2022 17:06:45 -0400</pubDate>
+      
+      <guid>https://linuxcrashcourse.com/processes/</guid>
+      <description>Processes   htop   usage htop alternatives btop    kill    usage ``
+  examples
+    </description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://linuxcrashcourse.com/networking/</link>
+      <pubDate>Mon, 23 May 2022 17:06:31 -0400</pubDate>
+      
+      <guid>https://linuxcrashcourse.com/networking/</guid>
+      <description>Networking   ping   Check if host reachability
+  usage ping Then the ip of the url
+  examples
+ping 192.168.1.1 ping www.google.com     ip   the replacement to ifconfig used to show / manipulate routing, network devices, interfaces and tunnels
+  basic examples
+ip a     </description>
+    </item>
+    
+  </channel>
+</rss>

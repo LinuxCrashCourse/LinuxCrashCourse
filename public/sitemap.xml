@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://linuxcrashcourse.com/</loc>
+    <lastmod>2022-05-23T17:13:34-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/programming/</loc>
+    <lastmod>2022-05-23T17:13:34-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/programming/temp/</loc>
+    <lastmod>2022-05-23T17:13:34-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/programming/gdb-cgdb/</loc>
+    <lastmod>2022-05-23T17:13:30-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/programming/gcc-g&#43;&#43;/</loc>
+    <lastmod>2022-05-23T17:13:07-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/processes/</loc>
+    <lastmod>2022-05-23T17:06:45-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/networking/</loc>
+    <lastmod>2022-05-23T17:06:31-04:00</lastmod>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/categories/</loc>
+  </url><url>
+    <loc>https://linuxcrashcourse.com/tags/</loc>
+  </url>
+</urlset>
