@@ -64,18 +64,18 @@ These commands are the most important???
 
 ## [Networking](Tabs/Networking.md)
 
-- [ping](http://manpages.ubuntu.com/manpages/jammy/en/man1/ping.1.html)
-- [ip](http://manpages.ubuntu.com/manpages/jammy/en/man8/ip.8.html)
-- [ssh](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh.1.html)
-- [scp](http://manpages.ubuntu.com/manpages/jammy/en/man1/scp.1.html)
-- [sftp](http://manpages.ubuntu.com/manpages/jammy/en/man1/sftp.1.html)
-- [ufw](http://manpages.ubuntu.com/manpages/jammy/en/man8/ufw.8.html)
-- [iperf3](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
-- [hostnamectl](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostnamectl.1.html)
-- [hostname](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
+- [ping](Tabs/Networking.md#ping) is an easy way to check if host reachability [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ping.1.html)
+- [ip](Tabs/Networking.md#ip) a cli tool used to show manipulate network setting [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/ip.8.html)
+- [ssh](Tabs/Networking.md#ssh) is a protocol for allowing 2 computers to communicate over the network [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh.1.html)
+- [scp](Tabs/Networking.md#scp) is [cp](Tabs/Files.md#cp) over ssh [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/scp.1.html)
+- [sftp](Tabs/Networking.md#sftp)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/sftp.1.html)
+- [ufw](Tabs/Networking.md#ufw) is a uncomplicated firewall  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/ufw.8.html)
+- [hostnamectl](Tabs/Networking.md#hostnamectl) can show or change the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostnamectl.1.html)
+- [hostname](Tabs/Networking.md#hostname) shows the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
+- [iperf3](Tabs/Networking.md#iperf3) is a utility for network perform testing  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
 - failtoban
 
-- .ssh-config
+
 
 ## Storage
 
