@@ -26,7 +26,7 @@
 
 ## [ip](http://manpages.ubuntu.com/manpages/jammy/en/man8/ip.8.html)
 
-- this is a command that you are going to need to go threw the man page for more details because there is so much i can do 
+- this is a command that you are going to need to go threw the man page for more details because there is so much i can do
 - basic usage ip a this will show you your system networking information
 - basic examples
 
@@ -82,8 +82,6 @@
   hostnamectl hostname Alice-Laptop
   ```
 
-
-
 ## [hostname](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
 
 - usage `hostname`
@@ -109,5 +107,3 @@
   ```bash
   iperf3 -c 192.168.1.1 -p 1111 -bidir
   ```
-
-

@@ -49,7 +49,7 @@ These commands are the most important???
 - [chown](Tabs/Files.md#chown) change ownership of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
 - [chmod](Tabs/Files.md#chmod) change permissions of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
 - [find](Tabs/Files.md#find) a tool to search for a file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
-- [ncdu](Tabs/Files.md#ncdu) shows disk usage presentage by directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
+- [ncdu](Tabs/Files.md#ncdu) shows disk usage percentage by directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
 - [diff](Tabs/Files.md#diff) compare two files [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/diff.1.html)
 
 - [locate](Tabs/Files.md#locate)
@@ -74,8 +74,6 @@ These commands are the most important???
 - [hostname](Tabs/Networking.md#hostname) shows the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
 - [iperf3](Tabs/Networking.md#iperf3) is a utility for network perform testing  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
 - failtoban
-
-
 
 ## Storage
 
