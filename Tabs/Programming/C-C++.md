@@ -19,6 +19,23 @@
   ```bash
   gcc helloworld.c
   g++ helloworld.cc
+
+
+g++ mycode.cc                   #compile mycode.cc link, and generate executable a.out
+g++ -g a.cc			#compile a.cc with debugging information
+g++ mycode.cc -o myexecutable   #compile mycode.cc and generate executable myexecutable
+g++ -c a.cc                     #compile a.cc and create the object file a.o
+g++ -O2 a.cc                    #compile a.cc with maximum ordinary optimization
+g++ a.cc b.cc -lpthread         #compile a.cc and b.cc and link with pthread library
+g++ a.cc b.o  -Llibs -lmylib    #compile a.cc, link with already compiled b.o with library libmylib.a or libmylib.so (on linux)
+g++ -Bstatic ..	     		# static link
+g++ -Bdynamic ...		# dynamic link
+
+libxxx.a		# static link library (archive)
+libxxx.so               # dynamic link library on linux
+xxx.lib                 # front end sort of equivalent to .a on windows
+xxx.dll                 # dynamic link library on Windows
+xxx.dylib               # dynamic link library on Mac OSX
   ```
 
 - Flags
