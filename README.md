@@ -114,8 +114,8 @@ These commands are the most important???
 
 ### Rust
 
-- cargo
-- rustup
+- [cargo](Tabs/Programming/C-C++.md#gprof) is the Rust package manager that also compiles and runs Rust programs [Man page](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
+- [rustup](Tabs/Programming/C-C++.md#gprof) installs everything you need to run rust Code [Information](https://www.rust-lang.org/tools/install)
 
 ### python
 
