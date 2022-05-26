@@ -12,10 +12,11 @@
 
 - GUI Command Line Interface
 - CLI Graphical User Interface
+- TUI Terminal User Interface
 - WM/DE Window Manager / Display Environment
 - uid User ID
 - gid Group ID
-- pid Process id
+- pid Process ID
 
 ## Filesystem
 

@@ -87,6 +87,8 @@ These commands are the most important???
 - [dd](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
 - [gparted](http://manpages.ubuntu.com/manpages/jammy/en/man8/gparted.8.html)
 - [partition]
+- LVM
+- ext4
 
 ## archiving-backup
 
@@ -101,14 +103,13 @@ These commands are the most important???
 
 ### C/C++
 
-- [gcc/g++](Programming/gcc-g++.md)
-- [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
-- [gdb/cgdb](Programming/gdb-cgdb.md)
-- [valgrind](http://manpages.ubuntu.com/manpages/jammy/en/man1/valgrind.1.html)
-- [bytehound](https://github.com/koute/bytehound/releases)
-- [gprof](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
-- profiling helps optimize by showing which parts of the code are taking the
-  most time
+- [gcc/g++](Tabs/Programming/C-C++.md#gccg) is a C/C++ compiler [Man page]([http://manpages.ubuntu.com/manpages/jammy/en/man1/gcc.1.html])
+- [Clang](Tabs/Programming/C-C++.md#clang) is a compiler for C, C++, Objective-C, and Objective-C++ [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
+- [gdb](Tabs/Programming/C-C++.md#gdb) is C/C++ Debugger [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/gdb.1.html)
+- [valgrind](Tabs/Programming/C-C++.md#valgrind) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/valgrind.1.html)
+- [bytehound](Tabs/Programming/C-C++.md#bytehound) [Man page](https://github.com/koute/bytehound/releases)
+- [gprof](Tabs/Programming/C-C++.md#gprof) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
+- profiling helps optimize by showing which parts of the code are taking the most time
 - coverage? coverage testing validates whether sections of the code are untested
 
 ### Rust
@@ -138,7 +139,6 @@ These commands are the most important???
     ```bash
     alias ll='ls -lh'
     alias la='ls -Alh'
-    alias aud='pacmd unload-module module-udev-detect && pacmd load-module module-udev-detect'
     ```
 
 ### Shells
