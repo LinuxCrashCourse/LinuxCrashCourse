@@ -56,11 +56,13 @@ These commands are the most important???
 
 ## [Processes](Tabs/Processes.md)
 
-- [htop](http://manpages.ubuntu.com/manpages/jammy/en/man1/htop.1.html)
-- [kill](http://manpages.ubuntu.com/manpages/jammy/en/man1/kill.1.html)
-- [pgrep](http://manpages.ubuntu.com/manpages/jammy/en/man1/pgrep.1.html)
-- [top](http://manpages.ubuntu.com/manpages/jammy/en/man1/top.1.html)
-- [ps](http://manpages.ubuntu.com/manpages/jammy/en/man1/ps.1.html)
+- [htop](Tabs/Processes.md#htop) is a cli version of task manager  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/htop.1.html)
+- [kill](Tabs/Processes.md#kill) stops a process [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/kill.1.html)
+- [xkill](Tabs/Processes.md#xkill) stops a process by clicking on its gui window [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/xkill.1.html)
+
+- [ps](Tabs/Processes.md#ps)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ps.1.html)
+- [pgrep](Tabs/Processes.md#pgrep)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/pgrep.1.html)
+- [top](Tabs/Processes.md#top)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/top.1.html)
 
 ## [Networking](Tabs/Networking.md)
 

@@ -1,11 +1,21 @@
 # Base-Knowledge
 
 - [Base-Knowledge](#base-knowledge)
+  - [Acronyms](#acronyms)
   - [Filesystem](#filesystem)
     - [Files](#files)
     - [Directories](#directories)
     - [Permissions](#permissions)
       - [Permission examples](#permission-examples)
+
+## Acronyms
+
+- GUI Command Line Interface
+- CLI Graphical User Interface
+- WM/DE Window Manager / Display Environment
+- uid User ID
+- gid Group ID
+- pid Process id
 
 ## Filesystem
 
