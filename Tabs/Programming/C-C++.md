@@ -20,17 +20,20 @@
   gcc helloworld.c
   g++ mycode.cc                   #compile mycode.cc link, and generate executable a.out
   g++ -g a.cc                     #compile a.cc with debugging information
+  g++ -Wall a.cc                  #compile a.cc showing all warnings (clean your code!)
   g++ mycode.cc -o myexecutable   #compile mycode.cc and generate executable myexecutable
   g++ -c a.cc                     #compile a.cc and create the object file a.o
   g++ -O2 a.cc                    #compile a.cc with maximum ordinary optimization
   g++ a.cc b.cc -lpthread         #compile a.cc and b.cc and link with pthread library
-  g++ a.cc b.o  -Llibs -lmylib    #compile a.cc, link with already compiled b.o with library libmylib.a or libmylib.so (on linux)
-  g++ -Bstatic ..                 # static link
-  g++ -Bdynamic ...               # dynamic link
+  g++ a.cc b.o  -Llibs -lmylib    #compile a.cc, link with already compiled b.o with library in directory libs libmylib.a or libmylib.so (on linux)
+  g++ -Bstatic ..                 # link to static library (.a)
+  g++ -Bdynamic ...               # link to dynamic library (.so)
+  g++ -c -fPIC a.cc               # generate Position Independent Code suitable for putting in shared object
+  g++ -shared -Wl,-soname,liba.so.1 -o liba.so.1.0.1 a.o	  #build dynamic library
   ```
 
 <details><summary>In Depth Information</summary>
-
+- gcc vs g++
 - Flags
   - Optimizing
     - -O0 This is the default. this has the fastest compile time and is bent for debugging
@@ -47,15 +50,19 @@
   - xxx.dll                 # dynamic link library on Windows
   - xxx.dylib               # dynamic link library on Mac OSX
 
+- Position Independent Code
 </details>
 
 ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
 
-- Clang is another one of the most popular compilers
+- Clang is a more research-oriented compiler. The error messsages are better, it is modular and generally somewhat ahead of gcc in implementing new language features. The clang and clang++ parameters are kept largely compatible with gcc and g++.
+
 - usage ``
 - examples
 
   ```bash
+  clang a.c		   # compiles c code generating a.out
+  clang++ -g -O2 a.cc	   # compile c++ with debugging and all normal optimization on
   
   ```
 
