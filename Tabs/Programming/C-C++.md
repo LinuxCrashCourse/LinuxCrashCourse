@@ -29,7 +29,7 @@
   g++ -Bstatic ..                 # link to static library (.a)
   g++ -Bdynamic ...               # link to dynamic library (.so)
   g++ -c -fPIC a.cc               # generate Position Independent Code suitable for putting in shared object
-  g++ -shared -Wl,-soname,liba.so.1 -o liba.so.1.0.1 a.o	  #build dynamic library
+  g++ -shared -Wl,-soname,liba.so.1 -o liba.so.1.0.1 a.o    #build dynamic library
   ```
 
 <details><summary>In Depth Information</summary>
@@ -51,6 +51,7 @@
   - xxx.dylib               # dynamic link library on Mac OSX
 
 - Position Independent Code
+
 </details>
 
 ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
@@ -61,8 +62,8 @@
 - examples
 
   ```bash
-  clang a.c		   # compiles c code generating a.out
-  clang++ -g -O2 a.cc	   # compile c++ with debugging and all normal optimization on
+  clang a.c              # compiles c code generating a.out
+  clang++ -g -O2 a.cc    # compile c++ with debugging and all normal optimization on
   
   ```
 
