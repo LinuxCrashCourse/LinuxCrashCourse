@@ -6,7 +6,7 @@
   - [Processes](#processes)
   - [Networking](#networking)
   - [Storage](#storage)
-  - [archiving-backup](#archiving-backup)
+  - [Archiving/Backup](#archivingbackup)
   - [Programming](#programming)
     - [C/C++](#cc)
     - [Rust](#rust)
@@ -90,14 +90,11 @@ These commands are the most important???
 - LVM
 - ext4
 
-## archiving-backup
+## Archiving/Backup
 
-- [tar](http://manpages.ubuntu.com/manpages/jammy/en/man1/tar.1.html)
-- [rsync](http://manpages.ubuntu.com/manpages/jammy/en/man1/rsync.1.html)
-- [zstd](http://manpages.ubuntu.com/manpages/jammy/en/man1/zstd.1.html)
-- [zip](http://manpages.ubuntu.com/manpages/jammy/en/man1/zip.1.html)
-- [bzip2](http://manpages.ubuntu.com/manpages/jammy/en/man1/bzip2.1.html)
-- lzma
+- [tar](Tabs/Archiving-Backup.md#tar) is an archiving tool [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tar.1.html)
+- [rsync](Tabs/Archiving-Backup.md#rsync)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rsync.1.html)
+- [zip](Tabs/Archiving-Backup.md#zip)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zip.1.html)
 
 ## Programming
 
