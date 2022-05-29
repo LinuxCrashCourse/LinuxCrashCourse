@@ -73,23 +73,38 @@
 - examples
 
   ```bash
-  cgdb a.out
   gdb a.out
   ```
 
 ## [cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/cgdb.1.html)
 
 - curses based frontend to GDB
-- usage `gdb` the program you want to debug
+- usage `cgdb` the program you want to debug
 - examples
 
   ```bash
   cgdb a.out
-  gdb a.out
   ```
 
 ## [valgrind](http://manpages.ubuntu.com/manpages/jammy/en/man1/valgrind.1.html)
 
+- [manual](https://valgrind.org/docs/manual/manual.html)
+- run program and find memory bugs
+- usage `valgrind` the program you want to debug
+- examples
+
+  ```bash
+  valgrind a.out
+  valgrind --leak-check=full a.out  #find all memory leaks and where they occurred
+  ```
+
 ## [bytehound](https://github.com/koute/bytehound/releases)
 
 ## [gprof](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
+
+-
+  ```bash
+  g++ -g a.cc -pg           # compile with profiling information
+  ./a.out     		    # run the program, which writes to gmon.out
+  gprof a.out gmon.out >analysis.txt    # reads in gmon.out and displays the profiling information
+  ```
