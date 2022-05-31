@@ -39,17 +39,23 @@ These commands are the most important???
 
 ## [Files](Tabs/Files.md)
 
-- [cd](Tabs/Files.md#cd) Change directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
-- [ls](Tabs/Files.md#ls) List contents of directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ls.1.html)
-- [mkdir](Tabs/Files.md#mkdir) make directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
-- [rmdir](Tabs/Files.md#rmdir) delete directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rmdir.1.html)
-- [rm](Tabs/Files.md#rm) delete file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
-- [cp](Tabs/Files.md#cp) copy file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html)
-- [mv](Tabs/Files.md#mv) move file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
-- [chown](Tabs/Files.md#chown) change ownership of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
-- [chmod](Tabs/Files.md#chmod) change permissions of file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
-- [find](Tabs/Files.md#find) a tool to search for a file/directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
-- [ncdu](Tabs/Files.md#ncdu) shows disk usage percentage by directory [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
+[file]: Tabs/Base-Knowledge.md#files
+[dir]: Tabs/Base-Knowledge.md#directories
+[CP]: Tabs/Files.md#cp
+
+- [cd](Tabs/Files.md#cd) Change [directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
+- [ls](Tabs/Files.md#ls) List contents of [directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ls.1.html)
+- [mkdir](Tabs/Files.md#mkdir) make [directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
+- [rmdir](Tabs/Files.md#rmdir) delete [directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rmdir.1.html)
+- [rm](Tabs/Files.md#rm) delete [file][file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
+- [cp][CP] copy [file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html)
+<!-- I don't like the wording for dd but i cant think of a better way to explain it -->
+- [dd](Tabs/Files.md#dd) is like [cp][CP] but with more granular control [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
+- [mv](Tabs/Files.md#mv) move [file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
+- [chown](Tabs/Files.md#chown) change ownership of [file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
+- [chmod](Tabs/Files.md#chmod) change permissions of [file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
+- [find](Tabs/Files.md#find) a tool to search for a [file]/[directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
+- [ncdu](Tabs/Files.md#ncdu) shows disk usage percentage by [directory][dir] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ncdu.1.html)
 - [diff](Tabs/Files.md#diff) compare two files [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/diff.1.html)
 
 - [locate](Tabs/Files.md#locate)
@@ -69,7 +75,7 @@ These commands are the most important???
 - [ping](Tabs/Networking.md#ping) is an easy way to check if host reachability [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ping.1.html)
 - [ip](Tabs/Networking.md#ip) a cli tool used to show manipulate network setting [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/ip.8.html)
 - [ssh](Tabs/Networking.md#ssh) is a protocol for allowing 2 computers to communicate over the network [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh.1.html)
-- [scp](Tabs/Networking.md#scp) is [cp](Tabs/Files.md#cp) over ssh [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/scp.1.html)
+- [scp](Tabs/Networking.md#scp) is [cp][CP] over ssh [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/scp.1.html)
 - [sftp](Tabs/Networking.md#sftp)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/sftp.1.html)
 - [ufw](Tabs/Networking.md#ufw) is a uncomplicated firewall  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/ufw.8.html)
 - [hostnamectl](Tabs/Networking.md#hostnamectl) can show or change the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostnamectl.1.html)
@@ -84,7 +90,6 @@ These commands are the most important???
 - [fdisk](http://manpages.ubuntu.com/manpages/jammy/en/man8/fdisk.8.html)
 - [ln](http://manpages.ubuntu.com/manpages/jammy/en/man1/ln.1.html)
 - [df](http://manpages.ubuntu.com/manpages/jammy/en/man1/df.1.html)
-- [dd](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
 - [gparted](http://manpages.ubuntu.com/manpages/jammy/en/man8/gparted.8.html)
 - [partition]
 - LVM
