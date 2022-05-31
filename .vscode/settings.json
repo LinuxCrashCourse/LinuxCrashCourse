@@ -1,11 +1,26 @@
 {
 	"cSpell.words": [
+		"Bdynamic",
+		"Bstatic",
 		"bytehound",
+		"dylib",
 		"gccg",
+		"gmon",
 		"gprof",
+		"helloworld",
 		"journalctl",
+		"liba",
+		"libmylib",
+		"libxxx",
+		"Llibs",
+		"lmylib",
+		"lpthread",
 		"lstopo",
 		"lsusb",
+		"mycode",
+		"myexecutable",
+		"pthread",
+		"soname",
 		"valgrind"
 	]
 }
