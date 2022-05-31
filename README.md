@@ -85,15 +85,17 @@ These commands are the most important???
 
 ## Storage
 
-- [mount](http://manpages.ubuntu.com/manpages/jammy/en/man8/mount.8.html)
-- [umount](http://manpages.ubuntu.com/manpages/jammy/en/man8/umount.8.html)
-- [fdisk](http://manpages.ubuntu.com/manpages/jammy/en/man8/fdisk.8.html)
-- [ln](http://manpages.ubuntu.com/manpages/jammy/en/man1/ln.1.html)
-- [df](http://manpages.ubuntu.com/manpages/jammy/en/man1/df.1.html)
-- [gparted](http://manpages.ubuntu.com/manpages/jammy/en/man8/gparted.8.html)
+[BD]: https://en.wikipedia.org/wiki/Block_(data_storage)
+
+- [mount](Tabs/Storage.md#mount) mounts a filesystem usually a [block][BD] device [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/mount.8.html)
+- [umount](Tabs/Storage.md#umount) unmounts a filesystem usually a [block][BD] device [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/umount.8.html)
+- [fdisk](Tabs/Storage.md#fdisk) is a CLI disk partitions editor [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/fdisk.8.html)
+- [ln](Tabs/Storage.md#ln) create links between files [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ln.1.html)
+- [df](Tabs/Storage.md#df) report file system disk space usage [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/df.1.html)
+- [gparted](Tabs/Storage.md#gparted) is a GUI disk partitions editor [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/gparted.8.html)
+- [lvm](Tabs/Storage.md#lvm) is a set of commands to manage disks in a system [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man8/lvm.8.html)
+
 - [partition]
-- LVM
-- ext4
 
 ## Archiving/Backup
 

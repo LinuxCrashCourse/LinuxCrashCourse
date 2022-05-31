@@ -7,6 +7,7 @@
     - [Directories](#directories)
     - [Permissions](#permissions)
       - [Permission examples](#permission-examples)
+  - [fstab](#fstab)
 
 ## Acronyms
 
@@ -57,3 +58,12 @@
 | 744 | rwx | r-- | r-- |
 | 775 | rwx | rwx | r-x |
 | 444 | r-- | r-- | r-- |
+
+## [fstab](http://manpages.ubuntu.com/manpages/jammy/en/man5/fstab.5.html)
+
+fstab is a file in /etc that stores the information
+about your systems filesystems.
+Its also what mounts your drives on boot
+
+example
+![xkill](../Images/fstab.png)
