@@ -11,13 +11,26 @@
 
 ## Acronyms
 
-- GUI Command Line Interface
-- CLI Graphical User Interface
-- TUI Terminal User Interface
-- WM/DE Window Manager / Display Environment
-- uid User ID
-- gid Group ID
-- pid Process ID
+| Acronyms | Meaning |
+| -------- | ------- |
+| GUI   | Command Line Interface |
+| CLI   | Graphical User Interface |
+| TUI   | Terminal User Interface |
+| WM/DE | Window Manager/Display Environment |
+| uid   | User ID |
+| gid   | Group ID |
+| pid   | Process ID |
+| ide   | Integrated development environment |
+| posix | Portable Operating System Interface |
+| utf   | Unicode Transformation Format |
+| | Below this is a work in progress |
+| fsf   | Free Software Foundation | <!-- I don't know if this is necessary -->
+| CUPS  | Common UNIX Printing System | <!-- I don't know if this is necessary -->
+| tty   | Teletypewriter | <!-- I don't know if this is Right -->
+| gnu   | gnu's not unix | <!-- I don't know if this is necessary -->
+| pgp | Pretty Good Privacy | <!-- I think these belong in encrypting tab -->
+| gpg | GNU Privacy Guard | <!-- I think these belong in encrypting tab -->
+| GPL | General Public License | <!-- I think i should make a license section -->
 
 ## Filesystem
 

@@ -119,7 +119,7 @@ These commands are the most important???
 ### [Rust](Tabs/Programming/Rust.md)
 
 - [cargo](Tabs/Programming/Rust.md#cargo) is the Rust package manager that also compiles and runs Rust programs [Man page](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
-- [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run rust Code [Information](https://www.rust-lang.org/tools/install)
+- [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run Rust Code [Information](https://www.rust-lang.org/tools/install)
 
 ### python
 
