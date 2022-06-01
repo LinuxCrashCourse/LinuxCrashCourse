@@ -9,3 +9,5 @@
 - [Website](https://www.tmmworkshop.com/)
 
 ## Dov Kruger
+
+- [Website](https://faculty.stevens.edu/dkruger)
