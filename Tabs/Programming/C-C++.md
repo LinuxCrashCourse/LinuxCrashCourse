@@ -56,7 +56,7 @@
 
 ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
 
-- Clang is a more research-oriented compiler. The error messsages are better, it is modular and generally somewhat ahead of gcc in implementing new language features. The clang and clang++ parameters are kept largely compatible with gcc and g++.
+- Clang is a more research-oriented compiler. The error messages are better, it is modular and generally somewhat ahead of gcc in implementing new language features. The clang and clang++ parameters are kept largely compatible with gcc and g++.
 
 - usage ``
 - examples
@@ -104,8 +104,9 @@
 ## [gprof](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
 
 -
+
   ```bash
-  g++ -g a.cc -pg           # compile with profiling information
-  ./a.out     		    # run the program, which writes to gmon.out
+  g++ -g a.cc -pg      # compile with profiling information
+  ./a.out              # run the program, which writes to gmon.out
   gprof a.out gmon.out >analysis.txt    # reads in gmon.out and displays the profiling information
   ```

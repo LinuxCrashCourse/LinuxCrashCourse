@@ -85,6 +85,16 @@
     cp -r dir dir
     ```
 
+- ## [dd](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
+
+  - Copy a file, converting and formatting according to the operands.
+  - usage `dd`
+  - examples
+
+    ```bash
+    dd 
+    ```
+
 - ## [mv](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
 
   -
