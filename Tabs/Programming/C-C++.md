@@ -18,14 +18,14 @@
 
   ```bash
   gcc helloworld.c
-  g++ mycode.cc                   #compile mycode.cc link, and generate executable a.out
-  g++ -g a.cc                     #compile a.cc with debugging information
-  g++ -Wall a.cc                  #compile a.cc showing all warnings (clean your code!)
-  g++ mycode.cc -o myexecutable   #compile mycode.cc and generate executable myexecutable
-  g++ -c a.cc                     #compile a.cc and create the object file a.o
-  g++ -O2 a.cc                    #compile a.cc with maximum ordinary optimization
-  g++ a.cc b.cc -lpthread         #compile a.cc and b.cc and link with pthread library
-  g++ a.cc b.o  -Llibs -lmylib    #compile a.cc, link with already compiled b.o with library in directory libs libmylib.a or libmylib.so (on linux)
+  g++ mycode.cc                   # compile mycode.cc link, and generate executable a.out
+  g++ -g a.cc                     # compile a.cc with debugging information
+  g++ -Wall a.cc                  # compile a.cc showing all warnings (clean your code!)
+  g++ mycode.cc -o myexecutable   # compile mycode.cc and generate executable myexecutable
+  g++ -c a.cc                     # compile a.cc and create the object file a.o
+  g++ -O2 a.cc                    # compile a.cc with maximum ordinary optimization
+  g++ a.cc b.cc -lpthread         # compile a.cc and b.cc and link with pthread library
+  g++ a.cc b.o  -Llibs -lmylib    # compile a.cc, link with already compiled b.o with library in directory libs libmylib.a or libmylib.so (on linux)
   g++ -Bstatic ..                 # link to static library (.a)
   g++ -Bdynamic ...               # link to dynamic library (.so)
   g++ -c -fPIC a.cc               # generate Position Independent Code suitable for putting in shared object

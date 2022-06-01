@@ -83,7 +83,7 @@ These commands are the most important???
 - [iperf3](Tabs/Networking.md#iperf3) is a utility for network perform testing  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
 - failtoban
 
-## Storage
+## [Storage](Tabs/Storage.md)
 
 [BD]: https://en.wikipedia.org/wiki/Block_(data_storage)
 
@@ -97,7 +97,7 @@ These commands are the most important???
 
 - [partition]
 
-## Archiving/Backup
+## [Archiving/Backup](Tabs/Archiving-Backup.md)
 
 - [tar](Tabs/Archiving-Backup.md#tar) is an archiving tool [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tar.1.html)
 - [rsync](Tabs/Archiving-Backup.md#rsync)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rsync.1.html)
@@ -105,7 +105,7 @@ These commands are the most important???
 
 ## Programming
 
-### C/C++
+### [C/C++](Tabs/Programming/C-C++.md)
 
 - [gcc/g++](Tabs/Programming/C-C++.md#gccg) is a C/C++ compiler [Man page]([http://manpages.ubuntu.com/manpages/jammy/en/man1/gcc.1.html])
 - [Clang](Tabs/Programming/C-C++.md#clang) is a compiler for C, C++, Objective-C, and Objective-C++ [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
@@ -116,10 +116,10 @@ These commands are the most important???
 - profiling helps optimize by showing which parts of the code are taking the most time
 - coverage? coverage testing validates whether sections of the code are untested
 
-### Rust
+### [Rust](Tabs/Programming/Rust.md)
 
-- [cargo](Tabs/Programming/C-C++.md#gprof) is the Rust package manager that also compiles and runs Rust programs [Man page](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
-- [rustup](Tabs/Programming/C-C++.md#gprof) installs everything you need to run rust Code [Information](https://www.rust-lang.org/tools/install)
+- [cargo](Tabs/Programming/Rust.md#cargo) is the Rust package manager that also compiles and runs Rust programs [Man page](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
+- [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run rust Code [Information](https://www.rust-lang.org/tools/install)
 
 ### python
 
@@ -164,7 +164,7 @@ These commands are the most important???
 
 - clion free for educational use
 - qtcreator free for open source use
--
+
 - python IDE
 - pycharm
 
