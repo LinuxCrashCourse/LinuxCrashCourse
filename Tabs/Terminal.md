@@ -7,6 +7,7 @@
     - [fish](#fish)
     - [tmux](#tmux)
   - [alias](#alias)
+  - [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## Shells
 
@@ -25,4 +26,29 @@
   ```bash
   alias ll='ls -lh'
   alias la='ls -Alh'
+  ```
+
+## Keyboard shortcuts
+
+- ctrl shift c
+  - Copy
+- ctrl shift v
+  - Paste
+- ctrl l
+  - Clear terminal
+- ctrl a
+  - Go to beginning of line
+- ctrl e
+  - go to end of line
+- ctrl r
+  - reverse search through history
+- tab
+  - Auto complete
+- !!
+  - redo last command
+  - examples
+
+  ```bash
+  ls
+  sudo !! is equivalent to sudo ls
   ```

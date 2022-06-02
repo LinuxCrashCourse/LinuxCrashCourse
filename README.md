@@ -6,22 +6,21 @@
   - [Processes](#processes)
   - [Networking](#networking)
   - [Storage](#storage)
+  - [Terminal](#terminal)
   - [Archiving/Backup](#archivingbackup)
   - [Programming](#programming)
     - [C/C++](#cc)
     - [Rust](#rust)
-    - [python](#python)
+    - [Python](#python)
+    - [Java](#java)
   - [Debugging-Information](#debugging-information)
-  - [Terminal](#terminal)
   - [Editors](#editors)
     - [C++ IDEs](#c-ides)
-    - [java](#java)
-    - [Keyboard shortcuts](#keyboard-shortcuts)
+    - [Java IDEs](#java-ides)
   - [User_Management](#user_management)
   - [External_Resources](#external_resources)
   - [Crypto](#crypto)
   - [String manipulation](#string-manipulation)
-  - [Fun](#fun)
   - [Needs a place](#needs-a-place)
 
 <!-- - # Best Linux Resources on the web -->
@@ -96,6 +95,16 @@ These commands are the most important???
 
 - [partition]
 
+## [Terminal](Tabs/Terminal.md)
+
+- [Shells](Tabs/Terminal.md#Shells)
+  - [Bash](Tabs/Terminal.md#Bash) The default terminal on most distros [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
+  - [zsh](Tabs/Terminal.md#zsh)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
+  - [fish](Tabs/Terminal.md#fish)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+  - [tmux](Tabs/Terminal.md#tmux)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
+- [alias](Tabs/Terminal.md#alias) is a method of creating a shortcut to a different command [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/alias.1posix.html)
+- [Keyboard shortcuts](Tabs/Terminal.md#keyboard-shortcuts) is just a list of useful keyboard shortcuts
+
 ## [Archiving/Backup](Tabs/Archiving-Backup.md)
 
 - [tar](Tabs/Archiving-Backup.md#tar) is an archiving tool [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tar.1.html)
@@ -120,7 +129,9 @@ These commands are the most important???
 - [cargo](Tabs/Programming/Rust.md#cargo) is the Rust package manager that also compiles and runs Rust programs [Man page](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
 - [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run Rust Code [Information](https://www.rust-lang.org/tools/install)
 
-### python
+### [Python](Tabs/Programming/Python.md)
+
+### [Java](Tabs/Programming/Java.md)
 
 ## Debugging-Information
 
@@ -132,15 +143,6 @@ These commands are the most important???
 - [lsusb](http://manpages.ubuntu.com/manpages/jammy/en/man8/lsusb.8.html)
 - [lsblk](http://manpages.ubuntu.com/manpages/jammy/en/man8/lsblk.8.html)
 - [lstopo](http://manpages.ubuntu.com/manpages/jammy/en/man1/lstopo.1.html)
-
-## [Terminal](Tabs/Terminal.md)
-
-- [Shells](Tabs/Terminal.md#Shells)
-  - [Bash](Tabs/Terminal.md#Bash) The default terminal on most distros [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
-  - [zsh](Tabs/Terminal.md#zsh)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
-  - [fish](Tabs/Terminal.md#fish)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
-  - [tmux](Tabs/Terminal.md#tmux)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
-- [alias](Tabs/Terminal.md#alias) is a method of creating a shortcut to a different command [Man page] (http://manpages.ubuntu.com/manpages/jammy/en/man1/alias.1posix.html)
 
 ## Editors
 
@@ -158,36 +160,11 @@ These commands are the most important???
 - python IDE
 - pycharm
 
-### java
+### Java IDEs
 
 - intellij
 - netbeans
 - eclipse
-
-### Keyboard shortcuts
-
-- ctrl shift c
-  - Copy
-- ctrl shift v
-  - Paste
-- ctrl l
-  - Clear terminal
-- ctrl a
-  - Go to beginning of line
-- ctrl e
-  - go to end of line
-- ctrl r
-  - reverse search through history
-- tab
-  - Auto complete
-- !!
-  - redo last command
-  - examples
-
-  ```bash
-  ls
-  sudo !! is equivalent to sudo ls
-  ```
 
 ## User_Management
 
@@ -211,7 +188,7 @@ consider these tutorials
 
 Cryptography is not easy, but it is vital. This may not be the first section you
 study, but if you want to your computer to be secure, you should learn these
-commands. [explain] (cryptoexplanation.md)
+commands.
 
 - [openssl](http://manpages.ubuntu.com/manpages/jammy/en/man1/openssl.1.html)
 - [ssh-keygen](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh-keygen.1.html)
@@ -223,19 +200,13 @@ commands. [explain] (cryptoexplanation.md)
 
 ## String manipulation
 
-- sed
-- awk
-- cut
-- paste
-- tr
-- [cat](Tabs/Files.md#cat) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
-- [less](Tabs/Files.md#less) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
-
-## Fun
-
-- [Stat](http://manpages.ubuntu.com/manpages/jammy/en/man1/stat.1.html)
-  - display file or file system status
-  - I haven't found a use for this yet but `stat /` will show you your installs Birthday
+- [sed](http://manpages.ubuntu.com/manpages/jammy/en/man1/sed.1.html)
+- [awk](http://manpages.ubuntu.com/manpages/jammy/en/man1/awk.1.html)
+- [cut](http://manpages.ubuntu.com/manpages/jammy/en/man1/cut.1.html)
+- [paste](http://manpages.ubuntu.com/manpages/jammy/en/man1/paste.1.html)
+- [tr](http://manpages.ubuntu.com/manpages/jammy/en/man1/tr.1.html)
+- [cat](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
+- [less](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
 
 ## Needs a place
 
@@ -247,3 +218,7 @@ commands. [explain] (cryptoexplanation.md)
   "" | sudo tee /etc/apt/preferences.d/ > /dev/null
 
 - xargs
+
+- [Stat](http://manpages.ubuntu.com/manpages/jammy/en/man1/stat.1.html)
+  - display file or file system status
+  - I haven't found a use for this yet but `stat /` will show you your installs Birthday
