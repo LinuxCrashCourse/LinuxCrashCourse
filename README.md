@@ -13,8 +13,7 @@
     - [python](#python)
   - [Debugging-Information](#debugging-information)
   - [Terminal](#terminal)
-    - [Shells](#shells)
-    - [Editors](#editors)
+  - [Editors](#editors)
     - [C++ IDEs](#c-ides)
     - [java](#java)
     - [Keyboard shortcuts](#keyboard-shortcuts)
@@ -134,25 +133,16 @@ These commands are the most important???
 - [lsblk](http://manpages.ubuntu.com/manpages/jammy/en/man8/lsblk.8.html)
 - [lstopo](http://manpages.ubuntu.com/manpages/jammy/en/man1/lstopo.1.html)
 
-## Terminal
+## [Terminal](Tabs/Terminal.md)
 
-- [alias](http://manpages.ubuntu.com/manpages/jammy/en/man1/alias.1posix.html)
-  - an alias is a method of creating a shortcut to a different command
-  - recommended alias to ad to bashrc or equivalent file
+- [Shells](Tabs/Terminal.md#Shells)
+  - [Bash](Tabs/Terminal.md#Bash) The default terminal on most distros [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
+  - [zsh](Tabs/Terminal.md#zsh)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
+  - [fish](Tabs/Terminal.md#fish)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+  - [tmux](Tabs/Terminal.md#tmux)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
+- [alias](Tabs/Terminal.md#alias) is a method of creating a shortcut to a different command [Man page] (http://manpages.ubuntu.com/manpages/jammy/en/man1/alias.1posix.html)
 
-    ```bash
-    alias ll='ls -lh'
-    alias la='ls -Alh'
-    ```
-
-### Shells
-
-- [Bash](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
-- [zsh](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
-- [fish](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
-- [tmux](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
-
-### Editors
+## Editors
 
 - [nano](http://manpages.ubuntu.com/manpages/jammy/en/man1/nano.1.html)
 - [vim](http://manpages.ubuntu.com/manpages/jammy/en/man1/vim.1.html)

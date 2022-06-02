@@ -23,6 +23,7 @@
 | ide   | Integrated development environment |
 | posix | Portable Operating System Interface |
 | utf   | Unicode Transformation Format |
+| dir   | Directories |
 | | Below this is a work in progress |
 | fsf   | Free Software Foundation | <!-- I don't know if this is necessary -->
 | CUPS  | Common UNIX Printing System | <!-- I don't know if this is necessary -->
@@ -43,6 +44,16 @@
 ### Directories
 
 - A directory is a location for storing files
+
+- Shortcuts
+
+  ```bash
+  /    # Root Dir
+  ~/   # Home Dir
+  -/   # Back to previous Dir
+  ./   # Current Dir
+  ../  # Up 1 Dir
+  ```
 
 ### Permissions
 

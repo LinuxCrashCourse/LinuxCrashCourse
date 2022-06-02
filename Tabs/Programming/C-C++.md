@@ -98,7 +98,7 @@
 
 ## [gprof](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
 
--
+- gprof is a C/C++ profiler
 
   ```bash
   g++ -g a.cc -pg      # compile with profiling information
