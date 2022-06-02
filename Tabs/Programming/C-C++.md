@@ -58,41 +58,35 @@
 ## [Clang](http://manpages.ubuntu.com/manpages/jammy/en/man3/Clang.3.html)
 
 - Clang is a more research-oriented compiler. The error messages are better, it is modular and generally somewhat ahead of gcc in implementing new language features. The clang and clang++ parameters are kept largely compatible with gcc and g++.
-
-- usage ``
 - examples
 
   ```bash
   clang a.c              # compiles c code generating a.out
-  clang++ -g -O2 a.cc    # compile c++ with debugging and all normal optimization on
-  
+  clang++ -g -O2 a.cc    # compile c++ with debugging and all normal optimization on   
   ```
 
 ## [gdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/gdb.1.html)
 
 - one of the most popular debuggers
-- usage `gdb` the program you want to debug
 - examples
-
+  
   ```bash
-  gdb a.out
+  gdb a.out # Opens a C/C++ compiled binary in gdb
   ```
 
 ## [cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/cgdb.1.html)
 
 - curses based frontend to GDB
-- usage `cgdb` the program you want to debug
 - examples
 
   ```bash
-  cgdb a.out
+  cgdb a.out # Opens a C/C++ compiled binary in gdb
   ```
 
 ## [valgrind](http://manpages.ubuntu.com/manpages/jammy/en/man1/valgrind.1.html)
 
 - [manual](https://valgrind.org/docs/manual/manual.html)
 - run program and find memory bugs
-- usage `valgrind` the program you want to debug
 - examples
 
   ```bash

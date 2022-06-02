@@ -7,12 +7,12 @@
 ## [cargo](http://manpages.ubuntu.com/manpages/kinetic/en/man1/cargo.1.html)
 
 - This is the Rust package manage but also compile and run Rust code
-  
 - examples
 
   ```bash
   cargo new Name  # Creates a directory with the Rust package information .
-  # You must be in a dir created wth cargo new.
+
+  # You must be in a dir created wth cargo new to run the following commands.
   cargo r         # Complies and runs Rust code.
   cargo b         # Complies Rust code.
   ```
