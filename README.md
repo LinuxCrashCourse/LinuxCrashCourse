@@ -79,6 +79,8 @@ These commands are the most important???
 - [hostnamectl](Tabs/Networking.md#hostnamectl) can show or change the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostnamectl.1.html)
 - [hostname](Tabs/Networking.md#hostname) shows the system hostname [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/hostname.1.html)
 - [iperf3](Tabs/Networking.md#iperf3) is a utility for network perform testing  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/iperf3.1.html)
+- [wget](Tabs/Networking.md#wget) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/wget.1.html)
+- [curl](Tabs/Networking.md#curl) [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/curl.1.html)
 - failtoban
 
 ## [Storage](Tabs/Storage.md)
@@ -108,8 +110,8 @@ These commands are the most important???
 ## [Archiving/Backup](Tabs/Archiving-Backup.md)
 
 - [tar](Tabs/Archiving-Backup.md#tar) is an archiving tool [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tar.1.html)
-- [rsync](Tabs/Archiving-Backup.md#rsync)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rsync.1.html)
-- [zip](Tabs/Archiving-Backup.md#zip)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zip.1.html)
+- [rsync](Tabs/Archiving-Backup.md#rsync) is like [cp][CP] but tailored toward backups [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/rsync.1.html)
+- [zip](Tabs/Archiving-Backup.md#zip) can create and and open zip files[file] [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zip.1.html)
 
 ## Programming
 
@@ -190,13 +192,13 @@ Cryptography is not easy, but it is vital. This may not be the first section you
 study, but if you want to your computer to be secure, you should learn these
 commands.
 
-- [openssl](http://manpages.ubuntu.com/manpages/jammy/en/man1/openssl.1.html)
-- [ssh-keygen](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh-keygen.1.html)
-- [gpg](http://manpages.ubuntu.com/manpages/jammy/en/man1/gpg.1.html)
-- [blake3](https://github.com/BLAKE3-team/BLAKE3)
-- [sha](http://manpages.ubuntu.com/manpages/jammy/en/man3/sha.3.html)
-- [sha2](http://manpages.ubuntu.com/manpages/jammy/en/man3/sha2.3.html)
-- [md5](http://manpages.ubuntu.com/manpages/jammy/en/man3/md5.3.html)
+- [ssh-keygen](Tabs/User_Management.md#ssh-keygen)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/ssh-keygen.1.html)
+- [openssl](Tabs/User_Management.md#openssl)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/openssl.1.html)
+- [gpg](Tabs/User_Management.md#gpg)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/gpg.1.html)
+- [sha](Tabs/User_Management.md#sha)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man3/sha.3.html)
+- [sha2](Tabs/User_Management.md#sha2)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man3/sha2.3.html)
+- [md5](Tabs/User_Management.md#md5)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man3/md5.3.html)
+- [blake3](Tabs/User_Management.md#blake3)  [Information](https://github.com/BLAKE3-team/BLAKE3)
 
 ## String manipulation
 
