@@ -1,6 +1,7 @@
 # Base-Knowledge
 
 - [Base-Knowledge](#base-knowledge)
+  - [Terminal](#terminal)
   - [Acronyms](#acronyms)
   - [Filesystem](#filesystem)
     - [Files](#files)
@@ -8,6 +9,22 @@
     - [Permissions](#permissions)
       - [Permission examples](#permission-examples)
   - [fstab](#fstab)
+
+## Terminal
+
+when you see a `$` in your terminal or in instructions for a command it means user
+when you see a `#` in your terminal or in instructions for a command it means root
+
+- examples
+
+  ```txt
+  Normal User
+  $ ls
+  Root User
+  # ls
+  equivalent to 
+  sudo ls
+  ```
 
 ## Acronyms
 
