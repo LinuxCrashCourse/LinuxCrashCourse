@@ -31,9 +31,8 @@ These commands are the most important???
 
 [Base-Knowledge](Tabs/Base-Knowledge.md) is fundament to the rest of the information without this knowing whats you may not understand whats being said.
 
-- [man] a cli interface for system reference manuals [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
-
-- [sudo] execute a command as root [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/sudo.1.html)
+- [man](Tabs/Core-Commands.md#man) a cli interface for system reference manuals [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/man.1.html)
+- [sudo](Tabs/Core-Commands.md#sudo) execute a command as root [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/sudo.1.html)
 
 ## [Files](Tabs/Files.md)
 
@@ -103,6 +102,7 @@ These commands are the most important???
   - [Bash](Tabs/Terminal.md#Bash) The default terminal on most distros [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
   - [zsh](Tabs/Terminal.md#zsh)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
   - [fish](Tabs/Terminal.md#fish)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+- [tools](Tabs/Terminal.md#tools)
   - [tmux](Tabs/Terminal.md#tmux)  [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
 - [alias](Tabs/Terminal.md#alias) is a method of creating a shortcut to a different command [Man page](http://manpages.ubuntu.com/manpages/jammy/en/man1/alias.1posix.html)
 - [Keyboard shortcuts](Tabs/Terminal.md#keyboard-shortcuts) is just a list of useful keyboard shortcuts

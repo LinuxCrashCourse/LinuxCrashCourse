@@ -10,6 +10,8 @@
   - [lvm](#lvm)
   - [ext4](#ext4)
 
+[BD]: https://en.wikipedia.org/wiki/Block_(data_storage)
+
 ## [mount](http://manpages.ubuntu.com/manpages/jammy/en/man8/mount.8.html)
 
 - mounts a filesystem usually a [block][BD] device

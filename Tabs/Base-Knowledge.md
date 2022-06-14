@@ -46,9 +46,9 @@ when you see a `#` in your terminal or in instructions for a command it means ro
 | CUPS  | Common UNIX Printing System | <!-- I don't know if this is necessary -->
 | tty   | Teletypewriter | <!-- I don't know if this is Right -->
 | gnu   | gnu's not unix | <!-- I don't know if this is necessary -->
-| pgp | Pretty Good Privacy | <!-- I think these belong in encrypting tab -->
-| gpg | GNU Privacy Guard | <!-- I think these belong in encrypting tab -->
-| GPL | General Public License | <!-- I think i should make a license section -->
+| pgp   | Pretty Good Privacy | <!-- I think these belong in encrypting tab -->
+| gpg   | GNU Privacy Guard | <!-- I think these belong in encrypting tab -->
+| GPL   | General Public License | <!-- I think i should make a license section -->
 
 ## Filesystem
 
@@ -107,4 +107,4 @@ about your systems filesystems.
 Its also what mounts your drives on boot
 
 example
-![xkill](../Images/fstab.png)
+![fstab](../Images/fstab.png)
