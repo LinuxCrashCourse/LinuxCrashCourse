@@ -5,17 +5,54 @@
     - [Bash](#bash)
     - [zsh](#zsh)
     - [fish](#fish)
+  - [Tools](#tools)
     - [tmux](#tmux)
   - [alias](#alias)
   - [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## Shells
 
+chsh -s /bin/bash
+
+echo $SHELL
+ps -p $$
+
+[Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+
 ### [Bash](http://manpages.ubuntu.com/manpages/jammy/en/man1/bash.1.html)
+
+Acronym Bourne-Again Shell
+
+Bash is by far the most commonly used choice.
+This is at least in part because is comes installed as the default shell in most Linux distros.
+
+Bash is a solid shell option. It hast bean used a long time and has a lot of documentation because of this.
+Most tutorials online will assume you are using Bash
+
+Becaus of all this it's recommended for most users and it get the job done.
+But like everything else with linux you have limit list amount of options.
+Below this some will be discussed but not all.
+
+Hears a [wikipedia][Bash] article if you want to know more about Bash.
+
+[ZSH]: https://en.wikipedia.org/wiki/Z_shell
+[ZSHSE]: https://apple.stackexchange.com/questions/361870/what-are-the-practical-differences-between-bash-and-zsh
+[omyzsh]: https://ohmyz.sh/
 
 ### [zsh](http://manpages.ubuntu.com/manpages/jammy/en/man1/zsh.1.html)
 
+Acronym Z shell
+
+Zsh is mostly Bash compatible if you want more hears a [stackexchange][ZSHSE] article.
+Its advantage is its more feature rich my favorites are spell check, superior tab compleat, and Better plugin support.
+
+The most important advantage is [Oh My Zsh][omyzsh] witch is an open source, community-driven framework customizing you Zsh configuration.
+
+Hears a [wikipedia][ZSH] article if you want to know more about Zsh.
+
 ### [fish](http://manpages.ubuntu.com/manpages/jammy/en/man1/fish.1.html)
+
+## Tools
 
 ### [tmux](http://manpages.ubuntu.com/manpages/jammy/en/man1/tmux.1.html)
 
