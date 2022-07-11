@@ -104,6 +104,8 @@ These commands are the most important???
   - [fish](Tabs/Terminal.md#fish)
 - [tools](Tabs/Terminal.md#tools)
   - [tmux](Tabs/Terminal.md#tmux)
+  - [less](Tabs/Terminal.md#less)
+
 - [alias](Tabs/Terminal.md#alias) is a method of creating a shortcut to a different command
 - [Keyboard shortcuts](Tabs/Terminal.md#keyboard-shortcuts) is just a list of useful keyboard shortcuts
 
@@ -209,7 +211,6 @@ commands.
 - [paste](http://manpages.ubuntu.com/manpages/jammy/en/man1/paste.1.html)
 - [tr](http://manpages.ubuntu.com/manpages/jammy/en/man1/tr.1.html)
 - [cat](http://manpages.ubuntu.com/manpages/jammy/en/man1/cat.1.html)
-- [less](http://manpages.ubuntu.com/manpages/jammy/en/man1/less.1.html)
 
 ## Needs a place
 
@@ -219,8 +220,6 @@ commands.
 
   sudo echo verbose echo "" | sudo tee /etc/apt/preferences.d/ not verbose echo
   "" | sudo tee /etc/apt/preferences.d/ > /dev/null
-
-- xargs
 
 - [Stat](http://manpages.ubuntu.com/manpages/jammy/en/man1/stat.1.html)
   - display file or file system status
