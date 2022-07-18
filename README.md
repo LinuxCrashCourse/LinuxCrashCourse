@@ -13,7 +13,7 @@
     - [Rust](#rust)
     - [Python](#python)
     - [Java](#java)
-  - [Debugging-Information](#debugging-information)
+  - [Debugging/Information](#debugginginformation)
   - [Editors](#editors)
     - [C++ IDEs](#c-ides)
     - [Java IDEs](#java-ides)
@@ -136,16 +136,21 @@ These commands are the most important???
 
 ### [Java](Tabs/Programming/Java.md)
 
-## Debugging-Information
+[sysd]: https://en.wikipedia.org/wiki/Systemd
 
-- [journalctl](http://manpages.ubuntu.com/manpages/jammy/en/man1/journalctl.1.html)
-- [systemctl](http://manpages.ubuntu.com/manpages/jammy/en/man1/systemctl.1.html)
-- [dmesg](http://manpages.ubuntu.com/manpages/jammy/en/man1/dmesg.1.html)
-- [lscpu](http://manpages.ubuntu.com/manpages/jammy/en/man1/lscpu.1.html)
-- [lspci](http://manpages.ubuntu.com/manpages/jammy/en/man8/lspci.8.html)
-- [lsusb](http://manpages.ubuntu.com/manpages/jammy/en/man8/lsusb.8.html)
-- [lsblk](http://manpages.ubuntu.com/manpages/jammy/en/man8/lsblk.8.html)
-- [lstopo](http://manpages.ubuntu.com/manpages/jammy/en/man1/lstopo.1.html)
+## [Debugging/Information](Tabs/Debugging_Information.md)
+
+- [journalctl](Tabs/Debugging_Information.md#journalctl) is a utility for querying and displaying logs from journald and [systemd][sysd]
+- [systemctl](Tabs/Debugging_Information.md#systemctl) is a utility used to control and manage [systemd][sysd] and services
+- [neofetch](Tabs/Debugging_Information.md#neofetch)
+- [dmesg](Tabs/Debugging_Information.md#dmesg) is a utility to display or control the (kernel ring buffer)[^1]
+- [lscpu](Tabs/Debugging_Information.md#lscpu) Display information about the CPU
+- [lspci](Tabs/Debugging_Information.md#lspci) Lists PCI devices
+- [lsusb](Tabs/Debugging_Information.md#lsusb) Lists USB devices
+- [lsblk](Tabs/Debugging_Information.md#lsblk) Lists block devices
+- [lstopo](Tabs/Debugging_Information.md#lstopo) Show the topology of the system
+
+[^1]: a place that records messages related to the operation of the kernel.
 
 ## Editors
 

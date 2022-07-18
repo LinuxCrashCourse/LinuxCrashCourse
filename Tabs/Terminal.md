@@ -174,5 +174,7 @@ Useful command for scripting
 xargs
 sort
 find
+[JQ](https://stedolan.github.io/jq/)
+<https://jqplay.org/>
 
 [devhints](https://devhints.io/bash)
