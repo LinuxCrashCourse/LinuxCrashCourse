@@ -7,7 +7,7 @@
   ![htop](../Images/htop.png)
 
   - alternatives
-    - [btop](https://github.com/aristocratos/btop) is very similar to htop in what it displays to htop it just looks a bit nicer and is written ins c++
+    - [btop](https://github.com/aristocratos/btop) is very similar to htop in what it displays to htop it just looks a bit nicer and is written in c++
 
 - ## [kill](http://manpages.ubuntu.com/manpages/jammy/en/man1/kill.1.html)
 
