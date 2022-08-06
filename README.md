@@ -11,6 +11,7 @@
     - [C/C++](#cc)
     - [Rust](#rust)
     - [python](#python)
+    - [binary dump](#binarydump)
   - [Debugging-Information](#debugging-information)
   - [Terminal](#terminal)
     - [Shells](#shells)
@@ -122,6 +123,12 @@ These commands are the most important???
 - [rustup](Tabs/Programming/C-C++.md#gprof) installs everything you need to run rust Code [Information](https://www.rust-lang.org/tools/install)
 
 ### python
+
+### binary dump
+- [xxd]()
+- [od]()
+- [objdump]()
+
 
 ## Debugging-Information
 
