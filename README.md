@@ -169,7 +169,7 @@ These commands are the most important???
 
 - [nano](http://manpages.ubuntu.com/manpages/jammy/en/man1/nano.1.html)
 - [vim](http://manpages.ubuntu.com/manpages/jammy/en/man1/vim.1.html)
-- emacs
+- [emacs](Tabs/emacs.md)
 - doom emacs
 - vscode
 
