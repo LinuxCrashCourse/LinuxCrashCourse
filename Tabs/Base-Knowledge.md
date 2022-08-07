@@ -58,6 +58,25 @@ when you see a `#` in your terminal or in instructions for a command it means ro
 
 - Everything in linux is a file [wikipedia article](https://en.wikipedia.org/wiki/Everything_is_a_file)
 
+wildcards
+
+| name | symobl | how it works |
+| ---- | :----: | ------------ |
+| Asterisk        | * |  |
+| Question mark   | ? |  |
+| Square brackets | [] |  |
+
+escape character
+
+The character whit need to be escaped
+
+| symbol | what it is for |
+| ------ | -------------- |
+| space, tab, newline  | Human readability |
+| ", $, &, ', ;, <, >, \, `, | shell syntax |
+| *, ?, [, ] | sh wildcard |
+| ! | history expansion |
+
 ### Directories
 
 - A directory is a location for storing files

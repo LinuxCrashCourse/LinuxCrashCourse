@@ -41,9 +41,9 @@
     - -O0 This is the default. this has the fastest compile time and is bent for debugging
     - -O1 Optimize This turns on basic optimizations
     - -O2 Optimize even more. This turns on nearly all supported optimizations that that gcc has.
-    - -O3 Optimize yet more. This turns on all optimizations and can cause problems.
+    - -O3 Optimize yet more. This turns on agressive optimizations that can cause problems.
   - Debugging
-    - -g This is the Debugging flag to use [gdb/cgdb](./gdb-cgdb.md)
+    - -g Add debugging symbols so the program can be debugged [gdb/cgdb](./gdb-cgdb.md)
 
 - Link Library
   - libxxx.a                # static link library (archive)
@@ -72,8 +72,38 @@
 - examples
   
   ```bash
-  gdb a.out # Opens a C/C++ compiled binary in gdb
+  gdb a.out
+  gdb --args myprog program arguments go here
   ```
+
+- gdb commands
+
+  ```gdb
+  b func          # set breakpoint on entry to function
+  b file.cc:33    # set breakpoint in file.cc at line 33
+  b +lines        # set breakpoints lines below current
+  tb +5           # set a temporary breakpoint (1 time)
+  r               # run program (or re-run if started)
+  c               # continue running until the next
+                  # breakpoint or the end
+  f               # finish the current function and stop
+  n               # next (step one line)
+  s               # step (step into function or 1 line)
+
+  u               # up (back to previous function)
+  d               # down (into function called)
+  bt              # display stack trace
+
+  p var           # print current value of a variable
+  p 5*3+2.6       # print an expression
+  p a = 3         # set variable a=0
+  p/x a           # print variable a in hex
+  disp a          # print every time debugger stops
+  q               # quit
+
+  ```
+
+
 
 ## [cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/cgdb.1.html)
 
