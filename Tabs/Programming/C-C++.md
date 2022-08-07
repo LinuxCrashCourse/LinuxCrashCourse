@@ -30,6 +30,7 @@
   g++ -Bdynamic ...               # link to dynamic library (.so)
   g++ -c -fPIC a.cc               # generate Position Independent Code suitable for putting in shared object
   g++ -shared -Wl,-soname,liba.so.1 -o liba.so.1.0.1 a.o    #build dynamic library
+  g++ -fsanitize=address -fno-omit-frame-pointer a.cc # generate code testing memory bounds
   ```
 
 <details><summary>In Depth Information</summary>
