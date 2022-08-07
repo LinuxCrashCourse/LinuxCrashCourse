@@ -103,8 +103,6 @@
 
   ```
 
-
-
 ## [cgdb](http://manpages.ubuntu.com/manpages/jammy/en/man1/cgdb.1.html)
 
 - curses based frontend to GDB

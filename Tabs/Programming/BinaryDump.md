@@ -14,6 +14,7 @@
   xxd filename       #dump file contents hex and ASCII
   xxd -l len filename #stop after len octets
   ```
+
 ## [od]([https://manpages.ubuntu.com/manpages/jammy/en/man1/od.1.html)
 
 - od dumps binary files as octal, hex or ASCII
@@ -24,7 +25,6 @@
   od -c filename    #dump file in ASCII
   od -cx filename   #dump file as hex and ASCII
   ```
-
 
 ## [objdump]([https://manpages.ubuntu.com/manpages/jammy/en/man1/objdump.1.html)
 

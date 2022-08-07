@@ -133,12 +133,16 @@ These commands are the most important???
 ### [Rust](Tabs/Programming/Rust.md)
 
 ### binary dump
+
 - [xxd](Tabs/Programming/BinaryDump.md#xxd)
 - [od](Tabs/Programming/BinaryDump.md#od)
 - [objdump](Tabs/Programming/BinaryDump.md#objdump)
+
 ## Debugging-Information
+
 - [cargo](Tabs/Programming/Rust.md#cargo) is the Rust package manager that also compiles and runs Rust programs
 - [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run Rust Code [Information](https://www.rust-lang.org/tools/install)
+
 >>>>>>> 7620882a0cb807d630aed2413c0b7e088a1eb76c
 
 ### [Python](Tabs/Programming/Python.md)
@@ -186,8 +190,11 @@ These commands are the most important???
   - See our configuration guide for vscode
   - Supports [collaborative editing](https://code.visualstudio.com/blogs/2017/11/15/live-share)
   - Free but not completely open source
+
 ### Python IDEs
-  - pycharm
+
+- pycharm
+
 ### Java IDEs
 
 - Intellij
