@@ -8,6 +8,8 @@
 
 - [Website](https://www.tmmworkshop.com/)
 
-## Dov Kruger ![Dov Kruger photo](DovKruger.jpg)
-- [Website](https://faculty.stevens.edu/dkruger)
+## Dov Kruger
 
+![Dov Kruger photo](/Images/DovKruger.jpg)
+
+- [Website](https://faculty.stevens.edu/dkruger)

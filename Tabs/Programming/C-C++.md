@@ -125,6 +125,9 @@
 
 ## [bytehound](https://github.com/koute/bytehound/releases)
 
+profiling helps optimize by showing which parts of the code are taking the most time
+coverage? coverage testing validates whether sections of the code are untested
+
 ## [gprof](http://manpages.ubuntu.com/manpages/jammy/en/man1/gprof.1.html)
 
 - gprof is a C/C++ profiler

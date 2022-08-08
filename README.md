@@ -11,10 +11,9 @@
   - [Programming](#programming)
     - [C/C++](#cc)
     - [Rust](#rust)
-    - [binary dump](#binary-dump)
-  - [Debugging-Information](#debugging-information)
     - [Python](#python)
     - [Java](#java)
+    - [binary dump](#binary-dump)
   - [Debugging/Information](#debugginginformation)
   - [Editors](#editors)
     - [C++ IDEs](#c-ides)
@@ -65,7 +64,6 @@ These commands are the most important???
 - [htop](Tabs/Processes.md#htop) is a cli version of task manager
 - [kill](Tabs/Processes.md#kill) stops a process
 - [xkill](Tabs/Processes.md#xkill) stops a process by clicking on its gui window
-
 - [ps](Tabs/Processes.md#ps)
 - [pgrep](Tabs/Processes.md#pgrep)
 - [top](Tabs/Processes.md#top)
@@ -127,27 +125,21 @@ These commands are the most important???
 - [gdb](Tabs/Programming/C-C++.md#gdb) is C/C++ Debugger
 - [valgrind](Tabs/Programming/C-C++.md#valgrind)
 - [bytehound](Tabs/Programming/C-C++.md#bytehound)
-- profiling helps optimize by showing which parts of the code are taking the most time
-- coverage? coverage testing validates whether sections of the code are untested
 
 ### [Rust](Tabs/Programming/Rust.md)
-
-### binary dump
-
-- [xxd](Tabs/Programming/BinaryDump.md#xxd)
-- [od](Tabs/Programming/BinaryDump.md#od)
-- [objdump](Tabs/Programming/BinaryDump.md#objdump)
-
-## Debugging-Information
 
 - [cargo](Tabs/Programming/Rust.md#cargo) is the Rust package manager that also compiles and runs Rust programs
 - [rustup](Tabs/Programming/Rust.md#rustup) installs everything you need to run Rust Code [Information](https://www.rust-lang.org/tools/install)
 
->>>>>>> 7620882a0cb807d630aed2413c0b7e088a1eb76c
-
 ### [Python](Tabs/Programming/Python.md)
 
 ### [Java](Tabs/Programming/Java.md)
+
+### [binary dump](Tabs/Programming/BinaryDump.md)
+
+- [xxd](Tabs/Programming/BinaryDump.md#xxd)
+- [od](Tabs/Programming/BinaryDump.md#od)
+- [objdump](Tabs/Programming/BinaryDump.md#objdump)
 
 [sysd]: https://en.wikipedia.org/wiki/Systemd
 
@@ -167,29 +159,16 @@ These commands are the most important???
 
 ## Editors
 
-- [nano](http://manpages.ubuntu.com/manpages/jammy/en/man1/nano.1.html)
-- [vim](http://manpages.ubuntu.com/manpages/jammy/en/man1/vim.1.html)
-- [emacs](Tabs/emacs.md)
+- [nano](Tabs/Editors/Editors.md#nano)
+- [vim](Tabs/Editors/Editors.md#vim)
+- [emacs](Tabs/Editors/Editors.md#emacs)
 - doom emacs
-- vscode
+- [vscode](Tabs/Editors/Editors.md#vscode)
 
 ### C++ IDEs
 
 - [CLion](https://www.jetbrains.com/clion/download/#section=linux)
-  - Simple to configure and use
-  - Very easy to build small projects using cmake
-  - Supports [collaborative editing](https://www.jetbrains.com/code-with-me/)
-  - Free for [educational use](https://www.jetbrains.com/community/education/#students), must have school id
 - [qtcreator](https://www.qt.io/download)
-  - Same company that provides qt widgets
-  - Strongly integrated for creating portable C++ GUI apps
-  - Free for open source use
-- [vscode](https://code.visualstudio.com/download)
-  - General purpose IDE supports many languages and debuggers
-  - Rich set of plugins for multiple purposes
-  - See our configuration guide for vscode
-  - Supports [collaborative editing](https://code.visualstudio.com/blogs/2017/11/15/live-share)
-  - Free but not completely open source
 
 ### Python IDEs
 
