@@ -4,6 +4,9 @@
   - [nano](#nano)
   - [vim](#vim)
   - [emacs](#emacs)
+  - [doom emacs](#doom-emacs)
+  - [vscode](#vscode)
+  - [code oss](#code-oss)
   - [C++ IDEs](#c-ides)
     - [CLion](#clion)
     - [qtcreator](#qtcreator)
@@ -14,7 +17,7 @@
 
 ## [vim](http://manpages.ubuntu.com/manpages/jammy/en/man1/vim.1.html)
 
-## [emacs](Tabs/emacs.md)
+## [emacs](Emacs.md)
 
 - [Home directory for emacs](https://directory.fsf.org/wiki/Emacs)
 - Basic key bindings: [Dov's quick reference](emacs/dovemacscheat.docx.pdf)
@@ -22,14 +25,19 @@
 - [Books on emacs](https://www.emacswiki.org/emacs/BooksAboutEmacs)
 - [Mastering Emacs 28 (pay)](https://www.masteringemacs.org/article/the-emacs-28-edition-of-mastering-emacs-out-now)
 
-- doom emacs
+## doom emacs
 
-- [vscode](https://code.visualstudio.com/download)
-  - General purpose IDE supports many languages and debuggers
-  - Rich set of plugins for multiple purposes
-  - See our configuration guide for vscode
-  - Supports [collaborative editing](https://code.visualstudio.com/blogs/2017/11/15/live-share)
-  - Free but not completely open source
+## [vscode](https://code.visualstudio.com/download)
+
+- General purpose IDE supports many languages and debuggers
+- Rich set of plugins for multiple purposes
+- See our configuration guide for vscode
+- Supports [collaborative editing](https://code.visualstudio.com/blogs/2017/11/15/live-share)
+- Free but not completely open source
+
+## [code oss](https://github.com/microsoft/vscode)
+
+- The Open sours base of vscode
 
 ## C++ IDEs
 
