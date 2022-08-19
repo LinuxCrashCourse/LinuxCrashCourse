@@ -56,6 +56,7 @@ These commands are the most important???
 - [find](Tabs/Files.md#find) a tool to search for a [file]/[directory][dir]
 - [ncdu](Tabs/Files.md#ncdu) shows disk usage percentage by [directory][dir]
 - [diff](Tabs/Files.md#diff) compare two files
+- [shred](Tabs/Files.md#shred) destroy a [file]
 
 - [locate](Tabs/Files.md#locate)
 

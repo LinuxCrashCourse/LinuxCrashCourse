@@ -65,7 +65,7 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
   rm ./*    # This will every normal file in a directory
   rm ./.*   # This will every file in a directory
   rm -r .*  # This will recursively delete everything in a directory including the sub directory
-  sudo rm -rf --no-preserve-root / #This will recursively delete everything in / your root directory 
+  sudo rm -rf --no-preserve-root / #This will recursively delete everything in / your root directory
   # In other words this will delate everything on you system
   ```
 
@@ -76,7 +76,7 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 
     ```bash
     cp file.txt dir  # This will copy a file to a directory
-    cp -r dir dir    # This will copy a directory recursively to a directory 
+    cp -r dir dir    # This will copy a directory recursively to a directory
     ```
 
 - ## [dd](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
@@ -85,7 +85,7 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
   - examples
 
     ```bash
-    dd 
+    dd
     ```
 
 - ## [mv](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
@@ -96,7 +96,8 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
     ```bash
     mv file newfile  # This will rename a file
     mv file.txt dir  # This will move a file to a directory
-    mv dir dir       # This will move a directory to a directory 
+    mv dir1 dir2       # This will move a directory to a directory
+    cp -r dir1 dir2 && rm -R dir1 # This is like mv dir1 dir2 but will  a nested directorys with content
     ```
 
 - ## [chown](http://manpages.ubuntu.com/manpages/jammy/en/man1/chown.1.html)
@@ -115,4 +116,52 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 
     ```bash
     chmod
+    ```
+
+[Acronyms]: Tabs/Base-Knowledge.md#acronyms
+
+- ## [find](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
+
+Find is an incredibly powerfully tool for locating files on directories on a linux machines
+Im going to start with some of the basic syntax and then some example
+
+- -name <u>pattern</u>
+  - Searches for file Base of file name
+- -type _
+  - File is of type _
+    - d directory
+    - f file
+    - l symbolic link
+- -maxdepth <u>levels</u>
+  - Descend  at  most  <u>levels</u> integer
+- -maxdepth <u>levels</u>
+  - Starts searching at <u>levels</u> integer
+- -user <u>username</u>
+  - Serche for items owed by spesified user [UID][Acronyms] is also valid.
+- -group <u>group</u>
+  - Serche for items owed by spesified group [GID][Acronyms] is also valid.
+- -mtime <u>n</u>
+  - File was last modified <u>n</u> days  ago.
+- -atime <u>n</u>
+  - File was last accessed <u>n</u> days  ago.
+
+  - examples
+
+    ```bash
+        sudo find ./ -type f -exec chmod 664 {} \;
+    sudo find ./ -type d -exec chmod 775 {} \;
+
+    find ./ -type f -ls | awk '{sum += $7; n++;} END {print sum/n;}'
+    find ./ -type f -exec shred {} \;
+    find ./ -type f -exec mv {} ../Home_Media_Test/Photos \;
+    find / -group 985 -exec chgrp -h users {} \;
+    find ./ -depth -empty -delete
+    find ./ -type d -exec rmdir {} \;
+    find ./ -type f -name "*.rar" -exec unrar x {} \;
+    find ./ -name "*.cc"
+    find ./ -name "*.cc" >> cc.txt
+    find ./ -name "make" >> make.txt
+    find ./ -name "Makefile" >> make.txt
+    find ./ -maxdepth 1 -type f -name "*.mkv" -exec mv {} ./mkv \;
+    find ./ -type f -name "*.png" -exec rm {} \;
     ```
