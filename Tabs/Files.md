@@ -137,9 +137,9 @@ Im going to start with some of the basic syntax and then some example
 - -maxdepth <u>levels</u>
   - Starts searching at <u>levels</u> integer
 - -user <u>username</u>
-  - Serche for items owed by spesified user [UID][Acronyms] is also valid.
+  - Serche for items owed by specified user [UID][Acronyms] is also valid.
 - -group <u>group</u>
-  - Serche for items owed by spesified group [GID][Acronyms] is also valid.
+  - Serche for items owed by specified group [GID][Acronyms] is also valid.
 - -mtime <u>n</u>
   - File was last modified <u>n</u> days  ago.
 - -atime <u>n</u>
@@ -148,20 +148,29 @@ Im going to start with some of the basic syntax and then some example
   - examples
 
     ```bash
-        sudo find ./ -type f -exec chmod 664 {} \;
-    sudo find ./ -type d -exec chmod 775 {} \;
+    find ./ -name "*.cc"                               # print all file with .cc extension
+    find ./ -name "Makefile"                           # print all file with name Makefile 
+    sudo find ./ -type f -exec chmod 664 {} \;         # changes permission on all file
+    sudo find ./ -type d -exec chmod 775 {} \;         # changes permission on all dirs 
+    find ./ -type f -name "*.png" -exec rm {} \;       # deletes all file with .png extension
+    find ./ -empty -delete                             # deletes all empty files and dirs
+    find ./ -type d -exec rmdir {} \;                  # deletes all empty dirs
+    find ./ -type f -exec shred -u  {} \;              # shreds and deletes all files 
+    find ./ -type f -exec mv {} dir \;                 # moves all files to dir
+    find ./ -type f -name "*.rar" -exec unrar x {} \;  # unrars all rar files
+    find ./ -group user -exec chgrp -h users {} \;     # changes the group for user to users
+    find ./ -maxdepth 1 -type f -name "*.mkv" -exec mv {} dir \;     # moves all files in current dir with .mkv extension to dir
+    find ./ -maxdepth 2 -type f -name "*.mkv" -exec mv {} dir \;     # moves all files in current dir with .mkv extension to dir
+    find ./ -type f -maxdepth 1 -name "*.mkv" -exec mv {} dir \;     # is invalid because maxdepth is a global option so must go before type
+    find ./ -type f -ls | awk '{sum += $7; n++;} END {print sum/n;}' # averages size of all files
+    ```
 
-    find ./ -type f -ls | awk '{sum += $7; n++;} END {print sum/n;}'
-    find ./ -type f -exec shred {} \;
-    find ./ -type f -exec mv {} ../Home_Media_Test/Photos \;
-    find / -group 985 -exec chgrp -h users {} \;
-    find ./ -depth -empty -delete
-    find ./ -type d -exec rmdir {} \;
-    find ./ -type f -name "*.rar" -exec unrar x {} \;
-    find ./ -name "*.cc"
-    find ./ -name "*.cc" >> cc.txt
-    find ./ -name "make" >> make.txt
-    find ./ -name "Makefile" >> make.txt
-    find ./ -maxdepth 1 -type f -name "*.mkv" -exec mv {} ./mkv \;
-    find ./ -type f -name "*.png" -exec rm {} \;
+- ## [shred](http://manpages.ubuntu.com/manpages/jammy/en/man1/shred.1.html)
+
+  - overwrite a file to hide its contents
+  - examples
+
+    ```bash
+    shred file    # overwrite data in file
+    shred -u file # overwrite and deletes data in file
     ```
