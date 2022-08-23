@@ -57,7 +57,7 @@
 - examples
 
   ```bash
-  rmdir dir       # Deletes ./dir if it is empty
+  rmdir dir  # Deletes ./dir if it is empty
   ```
 
 ## [rm](http://manpages.ubuntu.com/manpages/jammy/en/man1/rm.1.html)
@@ -66,11 +66,11 @@
 - examples
 
   ```bash
-  rm file.txt             # Deletes file.txt
-  rm a.txt b.txt          # Deletes a.txt and b.txt
-  rm -r dir               # Deletes recursively all files under dir
-  rm -i                   # Prompts before deleting a file
-  rm -I                   # Prompts before deleting multiple files, will ask after each 3 or when removing recursively
+  rm file.txt     # Deletes file.txt
+  rm a.txt b.txt  # Deletes a.txt and b.txt
+  rm -r dir       # Deletes recursively all files under dir
+  rm -i           # Prompts before deleting a file
+  rm -I           # Prompts before deleting multiple files, will ask after each 3 or when removing recursively
   ```
 
 ### Warnings
@@ -92,8 +92,8 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 - examples
 
   ```bash
-  cp a.txt dir  # Copy a.txt to dir
-  cp -r dir1 dir2    # Copy dir1 and all contents into dir2
+  cp a.txt dir     # Copy a.txt to dir
+  cp -r dir1 dir2  # Copy dir1 and all contents into dir2
   ```
 
 ## [dd](http://manpages.ubuntu.com/manpages/jammy/en/man1/dd.1.html)
@@ -102,10 +102,12 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 - examples
 
   ```bash
-  dd if=/dev/zero of=myfile bs=1k count=1k # Create a 1MB file of zeros
-  dd if=rasbian.iso of=/dev/sdc1  #Copy an iso file direct to a USB drive plugged in
-  dd if=/dev/random of=mykey.txt bs=32761 #write 73761 bytes of random bits to a file for use as a secret password
+  dd if=/dev/zero of=myfile bs=1k count=1k      # Create a 1MB file of zeros
+  dd if=rasbian.iso of=/dev/sdc1                #Copy an iso file direct to a USB drive plugged in
+  dd if=/dev/random of=mykey.txt bs=1 count=32  #write 32 bytes of random bits to a file for use as a secret password
   ```
+
+[dev random](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=775328)
 
 ## [mv](http://manpages.ubuntu.com/manpages/jammy/en/man1/mv.1.html)
 
@@ -113,9 +115,9 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 - examples
 
   ```bash
-  mv a b              # Rename file a as b
-  mv a b dir          # Move both a and b to dir
-  mv dir1 dir2        # If dir2 does not exist, rename dir1 as dir2. If it does exist, move dir1 into dir2
+  mv a b        # Rename file a as b
+  mv a b dir    # Move both a and b to dir
+  mv dir1 dir2  # If dir2 does not exist, rename dir1 as dir2. If it does exist, move dir1 into dir2
   cp -r dir1 dir2 && rm -R dir1 # This is like mv dir1 dir2 but will recursively move the directory a nested directorys with content
   ```
 
@@ -133,6 +135,7 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
   ```
 
 ## [chmod](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
+
 - examples
 
   ```bash
@@ -190,6 +193,6 @@ Im going to start with some of the basic syntax and then some example
 - examples
 
   ```bash
-    shred file    # Overwrite data in file
-    shred -u file # Overwrite and deletes data in file
+  shred file    # Overwrite data in file
+  shred -u file # Overwrite and deletes data in file
   ```
