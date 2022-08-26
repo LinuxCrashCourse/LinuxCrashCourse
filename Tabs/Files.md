@@ -15,7 +15,8 @@
   - [find](#find)
   - [shred](#shred)
 
-[Acronyms]: Tabs/Base-Knowledge.md#acronyms
+[Acronyms]: Base-Knowledge.md#acronyms
+[Permissions]: Base-Knowledge.md#permissions
 
 ## [cd](http://manpages.ubuntu.com/manpages/jammy/en/man1/cd.1.html)
 
@@ -136,10 +137,15 @@ Treat rm with respect you cant recover file that have bean deleted with rm it **
 
 ## [chmod](http://manpages.ubuntu.com/manpages/jammy/en/man1/chmod.1.html)
 
+- Changes the [permissions][Permissions] a file or dir
+
 - examples
 
   ```bash
-  chmod
+  chmod 777 file/dir  # Changes the permissions of a file or dir
+  chmod +x  file/dir  # Adds execute permissions to a file or dir
+  chmod -R 777 dir    # Changes the permissions of a file or dir recursive
+  chmod -r 777 dir    # is invalid chmod is case sensitive
   ```
 
 ## [find](http://manpages.ubuntu.com/manpages/jammy/en/man1/find.1.html)
@@ -169,10 +175,10 @@ Im going to start with some of the basic syntax and then some example
 - examples
 
   ```bash
-  find . -name "*.cc"                                # Print all files with .cc extension
-  find . -name "Makefile"                            # Print all files with name Makefile 
-  sudo find . -type f -exec chmod 664 {} \;          # Change permission on all files
-  sudo find . -type d -exec chmod 775 {} \;          # Change permission on all dirs 
+  find . -name "*.cc"                               # Print all files with .cc extension
+  find . -name "Makefile"                           # Print all files with name Makefile 
+  sudo find . -type f -exec chmod 664 {} \;         # Change permission on all files
+  sudo find . -type d -exec chmod 775 {} \;         # Change permission on all dirs 
   find . -type f -name "*.png" -exec rm {} \;       # Delete all plain files with .png extension
   find . -empty -delete                             # Delete all empty files and dirs
   find . -type d -exec rmdir {} \;                  # Delete all empty dirs
@@ -180,11 +186,11 @@ Im going to start with some of the basic syntax and then some example
   find . -type f -exec mv {} dir \;                 # Moves all plain files to dir
   find . -type f -name "*.rar" -exec unrar x {} \;  # Unrar all rar files into current dir
   find . -group user -exec chgrp -h user2 {} \;     # Change the group for user to user2
+  find . -name "*.cc" -newermt "2022-07-21"         # Find all .cc files since July 21, 2022
   find . -maxdepth 1 -type f -name "*.mkv" -exec mv {} dir \;     # Move all files in current dir with .mkv extension to dir
   find . -maxdepth 2 -type f -name "*.mkv" -exec mv {} dir \;     # Move all files in top 2 dirs with .mkv extension to dir
   find . -type f -maxdepth 1 -name "*.mkv" -exec mv {} dir \;     # is invalid because maxdepth is a global option so must go before type
   find . -type f -ls | awk '{sum += $7; n++;} END {print sum/n;}' # averages size of all files
-  find . -name "*.cc" -newermt "2022-07-21"        # Find all .cc files since July 21, 2022
   ```
 
 ## [shred](http://manpages.ubuntu.com/manpages/jammy/en/man1/shred.1.html)
